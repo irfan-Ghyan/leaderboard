@@ -1,0 +1,878 @@
+{
+	"TrackName": "acu_hungaroring",
+	"TrackConfig": "",
+	"Type": "QUALIFY",
+	"DurationSecs": 0,
+	"RaceLaps": 0,
+	"Cars": [
+		{
+			"CarId": 0,
+			"Driver": {
+				"Name": "FAISAL",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_0",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Name": "LUCAS  CHARLES",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_1",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZUHAIR TARIQUE",
+				"Team": "",
+				"Nation": "IND",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_2",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_3",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_4",
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Result": [
+		{
+			"DriverName": "LUCAS  CHARLES",
+			"DriverGuid": "76561199439370240",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"BestLap": 109424,
+			"TotalTime": 244976,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ZUHAIR TARIQUE",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "FAISAL",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 3,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 4,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Laps": [
+		{
+			"DriverName": "LUCAS  CHARLES",
+			"DriverGuid": "76561199439370240",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 9648180,
+			"LapTime": 135542,
+			"Sectors": [
+				58007,
+				46364,
+				31171
+			],
+			"Cuts": 2,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ZUHAIR TARIQUE",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 9701596,
+			"LapTime": 188954,
+			"Sectors": [
+				104957,
+				47880,
+				36117
+			],
+			"Cuts": 4,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "FAISAL",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 9708321,
+			"LapTime": 195689,
+			"Sectors": [
+				119176,
+				44037,
+				32476
+			],
+			"Cuts": 7,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "LUCAS  CHARLES",
+			"DriverGuid": "76561199439370240",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 9757600,
+			"LapTime": 109424,
+			"Sectors": [
+				40408,
+				39042,
+				29974
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ZUHAIR TARIQUE",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 9828807,
+			"LapTime": 127209,
+			"Sectors": [
+				45282,
+				47367,
+				34560
+			],
+			"Cuts": 4,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		}
+	],
+	"Events": [
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZUHAIR TARIQUE",
+				"Team": "",
+				"Nation": "IND",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Name": "LUCAS  CHARLES",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 54.24939,
+			"WorldPosition": {
+				"X": -145.9572,
+				"Y": 17.596945,
+				"Z": 175.60652
+			},
+			"RelPosition": {
+				"X": 0.87020737,
+				"Y": 0.21642843,
+				"Z": 1.3511266
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZUHAIR TARIQUE",
+				"Team": "",
+				"Nation": "IND",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 60.411037,
+			"WorldPosition": {
+				"X": -135.58426,
+				"Y": 15.568816,
+				"Z": 149.10968
+			},
+			"RelPosition": {
+				"X": -0.6030398,
+				"Y": -0.2052822,
+				"Z": 2.4172933
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZUHAIR TARIQUE",
+				"Team": "",
+				"Nation": "IND",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Name": "FAISAL",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 54.98986,
+			"WorldPosition": {
+				"X": -156.7789,
+				"Y": 13.960747,
+				"Z": 123.533165
+			},
+			"RelPosition": {
+				"X": 0.87019837,
+				"Y": 0.24233216,
+				"Z": 1.3508885
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 1,
+			"Driver": {
+				"Name": "LUCAS  CHARLES",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Name": "ZUHAIR TARIQUE",
+				"Team": "",
+				"Nation": "IND",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 51.825184,
+			"WorldPosition": {
+				"X": -145.94788,
+				"Y": 17.602869,
+				"Z": 175.53143
+			},
+			"RelPosition": {
+				"X": -0.83270705,
+				"Y": 0.24916266,
+				"Z": 1.7154564
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 0,
+			"Driver": {
+				"Name": "FAISAL",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Name": "ZUHAIR TARIQUE",
+				"Team": "",
+				"Nation": "IND",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 57.76524,
+			"WorldPosition": {
+				"X": -156.71289,
+				"Y": 13.806846,
+				"Z": 123.62358
+			},
+			"RelPosition": {
+				"X": -0.79855776,
+				"Y": 0.07701384,
+				"Z": -0.82825655
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "FAISAL",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 32.546146,
+			"WorldPosition": {
+				"X": -170.576,
+				"Y": 11.971836,
+				"Z": 95.15456
+			},
+			"RelPosition": {
+				"X": 0.36169133,
+				"Y": 0.51183385,
+				"Z": -1.6014038
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZUHAIR TARIQUE",
+				"Team": "",
+				"Nation": "IND",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 12.681047,
+			"WorldPosition": {
+				"X": -160.89221,
+				"Y": 12.633474,
+				"Z": 109.58531
+			},
+			"RelPosition": {
+				"X": 0.6074406,
+				"Y": 0.0044496222,
+				"Z": 2.4203033
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "FAISAL",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 48.657883,
+			"WorldPosition": {
+				"X": -200.89156,
+				"Y": 9.829258,
+				"Z": 85.13056
+			},
+			"RelPosition": {
+				"X": 0.45843154,
+				"Y": -0.27172056,
+				"Z": -1.6079288
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZUHAIR TARIQUE",
+				"Team": "",
+				"Nation": "IND",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 29.279388,
+			"WorldPosition": {
+				"X": -173.55246,
+				"Y": 11.696455,
+				"Z": 91.10584
+			},
+			"RelPosition": {
+				"X": 0.45108414,
+				"Y": 0.59771615,
+				"Z": -1.6045796
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZUHAIR TARIQUE",
+				"Team": "",
+				"Nation": "IND",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 31.149477,
+			"WorldPosition": {
+				"X": -173.92932,
+				"Y": 10.77863,
+				"Z": 90.596725
+			},
+			"RelPosition": {
+				"X": -0.45402798,
+				"Y": -0.27171984,
+				"Z": -1.6079298
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "FAISAL",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 30.30317,
+			"WorldPosition": {
+				"X": -184.76648,
+				"Y": 9.306665,
+				"Z": 58.25048
+			},
+			"RelPosition": {
+				"X": 0.45108244,
+				"Y": 0.59771633,
+				"Z": -1.6045737
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "FAISAL",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 4.710103,
+			"WorldPosition": {
+				"X": -184.83423,
+				"Y": 7.6412992,
+				"Z": 47.544373
+			},
+			"RelPosition": {
+				"X": -0.4540275,
+				"Y": -0.27172026,
+				"Z": -1.6079303
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "FAISAL",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 0.00034981957,
+			"WorldPosition": {
+				"X": -184.83742,
+				"Y": 7.639523,
+				"Z": 47.537193
+			},
+			"RelPosition": {
+				"X": -0.4540298,
+				"Y": -0.27171984,
+				"Z": -1.607934
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZUHAIR TARIQUE",
+				"Team": "",
+				"Nation": "IND",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 44.39529,
+			"WorldPosition": {
+				"X": 223.98634,
+				"Y": 28.6212,
+				"Z": -362.9696
+			},
+			"RelPosition": {
+				"X": -0.8636039,
+				"Y": 0.24130602,
+				"Z": -1.345798
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "FAISAL",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 15.8373165,
+			"WorldPosition": {
+				"X": 33.274845,
+				"Y": 28.626587,
+				"Z": 353.01752
+			},
+			"RelPosition": {
+				"X": 0.6074356,
+				"Y": 0.004450648,
+				"Z": 2.420295
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "FAISAL",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 19.060078,
+			"WorldPosition": {
+				"X": 7.0894628,
+				"Y": 38.45836,
+				"Z": 592.5929
+			},
+			"RelPosition": {
+				"X": 0.8680181,
+				"Y": 0.2413078,
+				"Z": -1.3458114
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "FAISAL",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 71.257545,
+			"WorldPosition": {
+				"X": -26.918747,
+				"Y": 38.18745,
+				"Z": 533.4864
+			},
+			"RelPosition": {
+				"X": -0.8636155,
+				"Y": 0.24130516,
+				"Z": -1.3457888
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "FAISAL",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 2.700536,
+			"WorldPosition": {
+				"X": -68.073746,
+				"Y": 38.479927,
+				"Z": 529.1629
+			},
+			"RelPosition": {
+				"X": -0.8658098,
+				"Y": 0.08855524,
+				"Z": 1.7496548
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZUHAIR TARIQUE",
+				"Team": "",
+				"Nation": "IND",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 47.441296,
+			"WorldPosition": {
+				"X": -48.38292,
+				"Y": 10.30655,
+				"Z": -283.8228
+			},
+			"RelPosition": {
+				"X": -0.60303015,
+				"Y": -0.20528197,
+				"Z": 2.417296
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZUHAIR TARIQUE",
+				"Team": "",
+				"Nation": "IND",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 55.39135,
+			"WorldPosition": {
+				"X": 77.515564,
+				"Y": 30.988567,
+				"Z": 389.5337
+			},
+			"RelPosition": {
+				"X": 0.8679962,
+				"Y": 0.24130604,
+				"Z": -1.3457884
+			}
+		}
+	]
+}

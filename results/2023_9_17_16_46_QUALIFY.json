@@ -1,0 +1,452 @@
+{
+	"TrackName": "acu_hungaroring",
+	"TrackConfig": "",
+	"Type": "QUALIFY",
+	"DurationSecs": 0,
+	"RaceLaps": 0,
+	"Cars": [
+		{
+			"CarId": 0,
+			"Driver": {
+				"Name": "FRZ",
+				"Team": "",
+				"Nation": "ITA",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_0",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Name": "FABIO",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_1",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Name": "WISSAM",
+				"Team": "",
+				"Nation": "LBN",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_2",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_3",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_4",
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Result": [
+		{
+			"DriverName": "FABIO",
+			"DriverGuid": "76561199439370240",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"BestLap": 111220,
+			"TotalTime": 348483,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "WISSAM",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "FRZ",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 3,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 4,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Laps": [
+		{
+			"DriverName": "FABIO",
+			"DriverGuid": "76561199439370240",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 15449340,
+			"LapTime": 133925,
+			"Sectors": [
+				61476,
+				41638,
+				30811
+			],
+			"Cuts": 2,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "WISSAM",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 15531317,
+			"LapTime": 157389,
+			"Sectors": [
+				71592,
+				47281,
+				38516
+			],
+			"Cuts": 4,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "FABIO",
+			"DriverGuid": "76561199439370240",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 15560561,
+			"LapTime": 111220,
+			"Sectors": [
+				40624,
+				40045,
+				30551
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		}
+	],
+	"Events": [
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "WISSAM",
+				"Team": "",
+				"Nation": "LBN",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 45.920933,
+			"WorldPosition": {
+				"X": 129.62123,
+				"Y": 31.557426,
+				"Z": 391.7931
+			},
+			"RelPosition": {
+				"X": -0.603038,
+				"Y": 0.0044493247,
+				"Z": 2.4203002
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "WISSAM",
+				"Team": "",
+				"Nation": "LBN",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 4.272056,
+			"WorldPosition": {
+				"X": 126.067795,
+				"Y": 31.650091,
+				"Z": 388.93503
+			},
+			"RelPosition": {
+				"X": -0.86579895,
+				"Y": 0.24580003,
+				"Z": 1.7482599
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "WISSAM",
+				"Team": "",
+				"Nation": "LBN",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 57.183838,
+			"WorldPosition": {
+				"X": 84.74492,
+				"Y": 21.903261,
+				"Z": -587.30615
+			},
+			"RelPosition": {
+				"X": -0.603033,
+				"Y": 0.0044500697,
+				"Z": 2.4202707
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "WISSAM",
+				"Team": "",
+				"Nation": "LBN",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 37.30352,
+			"WorldPosition": {
+				"X": 68.84431,
+				"Y": 21.42017,
+				"Z": -637.4499
+			},
+			"RelPosition": {
+				"X": -0.44667444,
+				"Y": 0.5977158,
+				"Z": -1.6045834
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "WISSAM",
+				"Team": "",
+				"Nation": "LBN",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 55.875103,
+			"WorldPosition": {
+				"X": 435.0496,
+				"Y": 31.461609,
+				"Z": -125.781006
+			},
+			"RelPosition": {
+				"X": 0.86799157,
+				"Y": 0.09266991,
+				"Z": -1.3444971
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "WISSAM",
+				"Team": "",
+				"Nation": "LBN",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 0.0882657,
+			"WorldPosition": {
+				"X": 430.9787,
+				"Y": 31.441223,
+				"Z": -115.02381
+			},
+			"RelPosition": {
+				"X": 0.87019116,
+				"Y": 0.08855686,
+				"Z": 1.7496382
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "WISSAM",
+				"Team": "",
+				"Nation": "LBN",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 62.740612,
+			"WorldPosition": {
+				"X": 135.11484,
+				"Y": 34.066452,
+				"Z": 470.6217
+			},
+			"RelPosition": {
+				"X": 0.8679926,
+				"Y": 0.09266909,
+				"Z": -1.3444963
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "WISSAM",
+				"Team": "",
+				"Nation": "LBN",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 51.12755,
+			"WorldPosition": {
+				"X": 59.704,
+				"Y": 29.613108,
+				"Z": 372.7784
+			},
+			"RelPosition": {
+				"X": 0.002202415,
+				"Y": -0.20479089,
+				"Z": 2.473585
+			}
+		}
+	]
+}

@@ -1,0 +1,339 @@
+{
+	"TrackName": "acu_hungaroring",
+	"TrackConfig": "",
+	"Type": "QUALIFY",
+	"DurationSecs": 0,
+	"RaceLaps": 0,
+	"Cars": [
+		{
+			"CarId": 0,
+			"Driver": {
+				"Name": "Romain",
+				"Team": "",
+				"Nation": "FRA",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_0",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Name": "fahad",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_1",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_2",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_3",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_4",
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Result": [
+		{
+			"DriverName": "Romain",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"BestLap": 108313,
+			"TotalTime": 373613,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "fahad",
+			"DriverGuid": "76561199482152288",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 3,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 4,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Laps": [
+		{
+			"DriverName": "Romain",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 10204082,
+			"LapTime": 132251,
+			"Sectors": [
+				62506,
+				39505,
+				30240
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Romain",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 10312390,
+			"LapTime": 108313,
+			"Sectors": [
+				39904,
+				38660,
+				29749
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		}
+	],
+	"Events": [
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "LUCAS CHARLES",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 15.206383,
+			"WorldPosition": {
+				"X": -382.54712,
+				"Y": 36.68907,
+				"Z": 241.2787
+			},
+			"RelPosition": {
+				"X": -0.6030281,
+				"Y": 0.004448619,
+				"Z": 2.4203036
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "fahad",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 8.990157,
+			"WorldPosition": {
+				"X": -124.20476,
+				"Y": 37.678574,
+				"Z": 434.97296
+			},
+			"RelPosition": {
+				"X": -0.60303617,
+				"Y": 0.0044512404,
+				"Z": 2.4202943
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "fahad",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 0.009632994,
+			"WorldPosition": {
+				"X": -124.50839,
+				"Y": 37.680534,
+				"Z": 434.72076
+			},
+			"RelPosition": {
+				"X": -0.6030433,
+				"Y": 0.0044490327,
+				"Z": 2.4203122
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "fahad",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 0.5300757,
+			"WorldPosition": {
+				"X": -124.99521,
+				"Y": 37.926044,
+				"Z": 434.31485
+			},
+			"RelPosition": {
+				"X": -0.86579806,
+				"Y": 0.24579905,
+				"Z": 1.7482697
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "fahad",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 0.007644277,
+			"WorldPosition": {
+				"X": -125.245224,
+				"Y": 37.7688,
+				"Z": 434.1039
+			},
+			"RelPosition": {
+				"X": -0.8657899,
+				"Y": 0.08855734,
+				"Z": 1.7496287
+			}
+		}
+	]
+}

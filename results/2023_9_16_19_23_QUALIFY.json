@@ -1,0 +1,262 @@
+{
+	"TrackName": "acu_hungaroring",
+	"TrackConfig": "",
+	"Type": "QUALIFY",
+	"DurationSecs": 0,
+	"RaceLaps": 0,
+	"Cars": [
+		{
+			"CarId": 0,
+			"Driver": {
+				"Name": "Gianmaria",
+				"Team": "",
+				"Nation": "ITA",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_0",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Name": "AHMAD",
+				"Team": "",
+				"Nation": "FIN",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_1",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_2",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_3",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_4",
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Result": [
+		{
+			"DriverName": "Gianmaria",
+			"DriverGuid": "76561199482152288",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"BestLap": 115235,
+			"TotalTime": 391505,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "AHMAD",
+			"DriverGuid": "76561199437441668",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 3,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 4,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Laps": [
+		{
+			"DriverName": "AHMAD",
+			"DriverGuid": "76561199437441668",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 6682572,
+			"LapTime": 137086,
+			"Sectors": [
+				66486,
+				39249,
+				31351
+			],
+			"Cuts": 1,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Gianmaria",
+			"DriverGuid": "76561199482152288",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 6705577,
+			"LapTime": 143695,
+			"Sectors": [
+				66907,
+				43861,
+				32927
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "AHMAD",
+			"DriverGuid": "76561199437441668",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 6795341,
+			"LapTime": 112771,
+			"Sectors": [
+				42067,
+				39461,
+				31243
+			],
+			"Cuts": 3,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Gianmaria",
+			"DriverGuid": "76561199482152288",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 6821746,
+			"LapTime": 116169,
+			"Sectors": [
+				43080,
+				41409,
+				31680
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Gianmaria",
+			"DriverGuid": "76561199482152288",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 6936980,
+			"LapTime": 115235,
+			"Sectors": [
+				42686,
+				40802,
+				31747
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		}
+	],
+	"Events": [
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "AHMAD",
+				"Team": "",
+				"Nation": "FIN",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 37.476463,
+			"WorldPosition": {
+				"X": -573.9963,
+				"Y": 35.510345,
+				"Z": -0.86286
+			},
+			"RelPosition": {
+				"X": 0.8680003,
+				"Y": 0.24130628,
+				"Z": -1.3458291
+			}
+		}
+	]
+}

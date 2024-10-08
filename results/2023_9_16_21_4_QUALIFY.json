@@ -1,0 +1,294 @@
+{
+	"TrackName": "acu_hungaroring",
+	"TrackConfig": "",
+	"Type": "QUALIFY",
+	"DurationSecs": 0,
+	"RaceLaps": 0,
+	"Cars": [
+		{
+			"CarId": 0,
+			"Driver": {
+				"Name": "moneer khawaja",
+				"Team": "",
+				"Nation": "JOR",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_0",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Name": "Jaden Miranda",
+				"Team": "",
+				"Nation": "IND",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_1",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_2",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_3",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_4",
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Result": [
+		{
+			"DriverName": "Jaden Miranda",
+			"DriverGuid": "76561199437441668",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"BestLap": 114294,
+			"TotalTime": 368299,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "moneer khawaja",
+			"DriverGuid": "76561199482152288",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 3,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 4,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Laps": [
+		{
+			"DriverName": "Jaden Miranda",
+			"DriverGuid": "76561199437441668",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 12664544,
+			"LapTime": 136398,
+			"Sectors": [
+				58907,
+				44299,
+				33192
+			],
+			"Cuts": 1,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "moneer khawaja",
+			"DriverGuid": "76561199482152288",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 12773159,
+			"LapTime": 154711,
+			"Sectors": [
+				76388,
+				46809,
+				31514
+			],
+			"Cuts": 4,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Jaden Miranda",
+			"DriverGuid": "76561199437441668",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 12782158,
+			"LapTime": 117611,
+			"Sectors": [
+				42066,
+				42209,
+				33336
+			],
+			"Cuts": 1,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "moneer khawaja",
+			"DriverGuid": "76561199482152288",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 12884748,
+			"LapTime": 111588,
+			"Sectors": [
+				41171,
+				39866,
+				30551
+			],
+			"Cuts": 2,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Jaden Miranda",
+			"DriverGuid": "76561199437441668",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 12896451,
+			"LapTime": 114294,
+			"Sectors": [
+				41965,
+				40640,
+				31689
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		}
+	],
+	"Events": [
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "moneer khawaja",
+				"Team": "",
+				"Nation": "JOR",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 58.757656,
+			"WorldPosition": {
+				"X": -592.46704,
+				"Y": 35.181953,
+				"Z": -2.166342
+			},
+			"RelPosition": {
+				"X": 0.6074259,
+				"Y": -0.20528153,
+				"Z": 2.4173126
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "moneer khawaja",
+				"Team": "",
+				"Nation": "JOR",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 68.08205,
+			"WorldPosition": {
+				"X": -16.066282,
+				"Y": 18.619793,
+				"Z": -646.559
+			},
+			"RelPosition": {
+				"X": 0.60744596,
+				"Y": 0.0044506276,
+				"Z": 2.4203126
+			}
+		}
+	]
+}

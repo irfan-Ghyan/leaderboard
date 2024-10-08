@@ -1,0 +1,2179 @@
+{
+	"TrackName": "spa",
+	"TrackConfig": "",
+	"Type": "RACE",
+	"DurationSecs": 0,
+	"RaceLaps": 7,
+	"Cars": [
+		{
+			"CarId": 0,
+			"Driver": {
+				"Name": "Teleios Camera",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199491456778",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_mcl36",
+			"Skin": "Norris",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Name": "Mr.Amir",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524702068",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_mcl36",
+			"Skin": "Ricciardo",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAYED",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524447022",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_mcl36",
+			"Skin": "Norris",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_mcl36",
+			"Skin": "Ricciardo",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_mcl36",
+			"Skin": "Norris",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 5,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_mcl36",
+			"Skin": "Ricciardo",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 6,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_mcl36",
+			"Skin": "Norris",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 7,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_mcl36",
+			"Skin": "Ricciardo",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 8,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_mcl36",
+			"Skin": "Norris",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 9,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_mcl36",
+			"Skin": "Ricciardo",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 10,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_mcl36",
+			"Skin": "Norris",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 11,
+			"Driver": {
+				"Name": "MAHMOUD",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524640276",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_rb18",
+			"Skin": "Perez",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 12,
+			"Driver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_rb18",
+			"Skin": "Verstappen",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 13,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_rb18",
+			"Skin": "Perez",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 14,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_rb18",
+			"Skin": "Verstappen",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 15,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_rb18",
+			"Skin": "Perez",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 16,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_rb18",
+			"Skin": "Verstappen",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 17,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_rb18",
+			"Skin": "Perez",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 18,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_rb18",
+			"Skin": "Verstappen",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 19,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_rb18",
+			"Skin": "Perez",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 20,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_rb18",
+			"Skin": "Verstappen",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 21,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "gp_2022_mcl36",
+			"Skin": "Norris",
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Result": [
+		{
+			"DriverName": "ABDULLA AL MAHMOUD",
+			"DriverGuid": "76561199385798318",
+			"CarId": 12,
+			"CarModel": "gp_2022_rb18",
+			"BestLap": 116978,
+			"TotalTime": 869658,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "MAHMOUD",
+			"DriverGuid": "76561199524640276",
+			"CarId": 11,
+			"CarModel": "gp_2022_rb18",
+			"BestLap": 115767,
+			"TotalTime": 871177,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ZAYED",
+			"DriverGuid": "76561199524447022",
+			"CarId": 2,
+			"CarModel": "gp_2022_mcl36",
+			"BestLap": 118567,
+			"TotalTime": 878345,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Mr.Amir",
+			"DriverGuid": "76561199524702068",
+			"CarId": 1,
+			"CarModel": "gp_2022_mcl36",
+			"BestLap": 125917,
+			"TotalTime": 916504,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 5,
+			"CarModel": "gp_2022_mcl36",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 4,
+			"CarModel": "gp_2022_mcl36",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 6,
+			"CarModel": "gp_2022_mcl36",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 7,
+			"CarModel": "gp_2022_mcl36",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 8,
+			"CarModel": "gp_2022_mcl36",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 9,
+			"CarModel": "gp_2022_mcl36",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 10,
+			"CarModel": "gp_2022_mcl36",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Teleios Camera",
+			"DriverGuid": "76561199491456778",
+			"CarId": 0,
+			"CarModel": "gp_2022_mcl36",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 3,
+			"CarModel": "gp_2022_mcl36",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 13,
+			"CarModel": "gp_2022_rb18",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 14,
+			"CarModel": "gp_2022_rb18",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 15,
+			"CarModel": "gp_2022_rb18",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 16,
+			"CarModel": "gp_2022_rb18",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 17,
+			"CarModel": "gp_2022_rb18",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 18,
+			"CarModel": "gp_2022_rb18",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 19,
+			"CarModel": "gp_2022_rb18",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 20,
+			"CarModel": "gp_2022_rb18",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 21,
+			"CarModel": "gp_2022_mcl36",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Laps": [
+		{
+			"DriverName": "MAHMOUD",
+			"DriverGuid": "76561199524640276",
+			"CarId": 11,
+			"CarModel": "gp_2022_rb18",
+			"Timestamp": 1341864,
+			"LapTime": 119555,
+			"Sectors": [
+				35878,
+				52627,
+				31050
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ZAYED",
+			"DriverGuid": "76561199524447022",
+			"CarId": 2,
+			"CarModel": "gp_2022_mcl36",
+			"Timestamp": 1344100,
+			"LapTime": 121789,
+			"Sectors": [
+				35654,
+				54752,
+				31383
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Mr.Amir",
+			"DriverGuid": "76561199524702068",
+			"CarId": 1,
+			"CarModel": "gp_2022_mcl36",
+			"Timestamp": 1360725,
+			"LapTime": 138415,
+			"Sectors": [
+				36913,
+				56061,
+				45441
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ABDULLA AL MAHMOUD",
+			"DriverGuid": "76561199385798318",
+			"CarId": 12,
+			"CarModel": "gp_2022_rb18",
+			"Timestamp": 1370242,
+			"LapTime": 147931,
+			"Sectors": [
+				35858,
+				59049,
+				53024
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "MAHMOUD",
+			"DriverGuid": "76561199524640276",
+			"CarId": 11,
+			"CarModel": "gp_2022_rb18",
+			"Timestamp": 1459450,
+			"LapTime": 117587,
+			"Sectors": [
+				32861,
+				53240,
+				31486
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ZAYED",
+			"DriverGuid": "76561199524447022",
+			"CarId": 2,
+			"CarModel": "gp_2022_mcl36",
+			"Timestamp": 1462666,
+			"LapTime": 118567,
+			"Sectors": [
+				34367,
+				52516,
+				31684
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ABDULLA AL MAHMOUD",
+			"DriverGuid": "76561199385798318",
+			"CarId": 12,
+			"CarModel": "gp_2022_rb18",
+			"Timestamp": 1487218,
+			"LapTime": 116978,
+			"Sectors": [
+				32590,
+				53118,
+				31270
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Mr.Amir",
+			"DriverGuid": "76561199524702068",
+			"CarId": 1,
+			"CarModel": "gp_2022_mcl36",
+			"Timestamp": 1493309,
+			"LapTime": 132585,
+			"Sectors": [
+				36105,
+				61276,
+				35204
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "MAHMOUD",
+			"DriverGuid": "76561199524640276",
+			"CarId": 11,
+			"CarModel": "gp_2022_rb18",
+			"Timestamp": 1579854,
+			"LapTime": 120405,
+			"Sectors": [
+				33015,
+				54639,
+				32751
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ZAYED",
+			"DriverGuid": "76561199524447022",
+			"CarId": 2,
+			"CarModel": "gp_2022_mcl36",
+			"Timestamp": 1581851,
+			"LapTime": 119184,
+			"Sectors": [
+				34061,
+				52880,
+				32243
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ABDULLA AL MAHMOUD",
+			"DriverGuid": "76561199385798318",
+			"CarId": 12,
+			"CarModel": "gp_2022_rb18",
+			"Timestamp": 1608070,
+			"LapTime": 120854,
+			"Sectors": [
+				32835,
+				56672,
+				31347
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Mr.Amir",
+			"DriverGuid": "76561199524702068",
+			"CarId": 1,
+			"CarModel": "gp_2022_mcl36",
+			"Timestamp": 1628410,
+			"LapTime": 135103,
+			"Sectors": [
+				34447,
+				65516,
+				35140
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "MAHMOUD",
+			"DriverGuid": "76561199524640276",
+			"CarId": 11,
+			"CarModel": "gp_2022_rb18",
+			"Timestamp": 1696811,
+			"LapTime": 116955,
+			"Sectors": [
+				32908,
+				52821,
+				31226
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ZAYED",
+			"DriverGuid": "76561199524447022",
+			"CarId": 2,
+			"CarModel": "gp_2022_mcl36",
+			"Timestamp": 1702851,
+			"LapTime": 121000,
+			"Sectors": [
+				34033,
+				55741,
+				31226
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ABDULLA AL MAHMOUD",
+			"DriverGuid": "76561199385798318",
+			"CarId": 12,
+			"CarModel": "gp_2022_rb18",
+			"Timestamp": 1731177,
+			"LapTime": 123105,
+			"Sectors": [
+				33446,
+				56953,
+				32706
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Mr.Amir",
+			"DriverGuid": "76561199524702068",
+			"CarId": 1,
+			"CarModel": "gp_2022_mcl36",
+			"Timestamp": 1758688,
+			"LapTime": 130280,
+			"Sectors": [
+				35105,
+				62015,
+				33160
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "MAHMOUD",
+			"DriverGuid": "76561199524640276",
+			"CarId": 11,
+			"CarModel": "gp_2022_rb18",
+			"Timestamp": 1812577,
+			"LapTime": 115767,
+			"Sectors": [
+				33785,
+				51031,
+				30951
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ZAYED",
+			"DriverGuid": "76561199524447022",
+			"CarId": 2,
+			"CarModel": "gp_2022_mcl36",
+			"Timestamp": 1833592,
+			"LapTime": 130740,
+			"Sectors": [
+				33751,
+				60044,
+				36945
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ABDULLA AL MAHMOUD",
+			"DriverGuid": "76561199385798318",
+			"CarId": 12,
+			"CarModel": "gp_2022_rb18",
+			"Timestamp": 1853901,
+			"LapTime": 122728,
+			"Sectors": [
+				32314,
+				56858,
+				33556
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Mr.Amir",
+			"DriverGuid": "76561199524702068",
+			"CarId": 1,
+			"CarModel": "gp_2022_mcl36",
+			"Timestamp": 1886232,
+			"LapTime": 127546,
+			"Sectors": [
+				34616,
+				58960,
+				33970
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "MAHMOUD",
+			"DriverGuid": "76561199524640276",
+			"CarId": 11,
+			"CarModel": "gp_2022_rb18",
+			"Timestamp": 1929935,
+			"LapTime": 117359,
+			"Sectors": [
+				33785,
+				51786,
+				31788
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ABDULLA AL MAHMOUD",
+			"DriverGuid": "76561199385798318",
+			"CarId": 12,
+			"CarModel": "gp_2022_rb18",
+			"Timestamp": 1972888,
+			"LapTime": 118986,
+			"Sectors": [
+				33801,
+				54369,
+				30816
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ZAYED",
+			"DriverGuid": "76561199524447022",
+			"CarId": 2,
+			"CarModel": "gp_2022_mcl36",
+			"Timestamp": 1973192,
+			"LapTime": 139598,
+			"Sectors": [
+				46296,
+				60574,
+				32728
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Mr.Amir",
+			"DriverGuid": "76561199524702068",
+			"CarId": 1,
+			"CarModel": "gp_2022_mcl36",
+			"Timestamp": 2012902,
+			"LapTime": 126671,
+			"Sectors": [
+				34444,
+				57951,
+				34276
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ABDULLA AL MAHMOUD",
+			"DriverGuid": "76561199385798318",
+			"CarId": 12,
+			"CarModel": "gp_2022_rb18",
+			"Timestamp": 2091971,
+			"LapTime": 119083,
+			"Sectors": [
+				32651,
+				54117,
+				32315
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "MAHMOUD",
+			"DriverGuid": "76561199524640276",
+			"CarId": 11,
+			"CarModel": "gp_2022_rb18",
+			"Timestamp": 2093490,
+			"LapTime": 163555,
+			"Sectors": [
+				56734,
+				75155,
+				31666
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ZAYED",
+			"DriverGuid": "76561199524447022",
+			"CarId": 2,
+			"CarModel": "gp_2022_mcl36",
+			"Timestamp": 2100658,
+			"LapTime": 127465,
+			"Sectors": [
+				33761,
+				56966,
+				36738
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Mr.Amir",
+			"DriverGuid": "76561199524702068",
+			"CarId": 1,
+			"CarModel": "gp_2022_mcl36",
+			"Timestamp": 2138817,
+			"LapTime": 125917,
+			"Sectors": [
+				33861,
+				57878,
+				34178
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		}
+	],
+	"Events": [
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 12,
+			"Driver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 105.20195,
+			"WorldPosition": {
+				"X": 74.324005,
+				"Y": -5.3487625,
+				"Z": -580.8412
+			},
+			"RelPosition": {
+				"X": 0.9519184,
+				"Y": 0.3279874,
+				"Z": -2.0867805
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 12,
+			"Driver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 11,
+			"OtherDriver": {
+				"Name": "MAHMOUD",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524640276",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 3.8640761,
+			"WorldPosition": {
+				"X": 551.7536,
+				"Y": 58.16027,
+				"Z": 401.7064
+			},
+			"RelPosition": {
+				"X": 0.9995889,
+				"Y": -0.07796989,
+				"Z": 2.1300445
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 11,
+			"Driver": {
+				"Name": "MAHMOUD",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524640276",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 12,
+			"OtherDriver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 1.9497683,
+			"WorldPosition": {
+				"X": 551.491,
+				"Y": 58.204018,
+				"Z": 400.9309
+			},
+			"RelPosition": {
+				"X": -1.0027887,
+				"Y": -0.0006042495,
+				"Z": 1.6334088
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 11,
+			"Driver": {
+				"Name": "MAHMOUD",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524640276",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Name": "ZAYED",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524447022",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 57.875706,
+			"WorldPosition": {
+				"X": 614.3966,
+				"Y": 67.21741,
+				"Z": 584.8895
+			},
+			"RelPosition": {
+				"X": 0.977845,
+				"Y": 0.04247928,
+				"Z": 2.6889472
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAYED",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524447022",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 11,
+			"OtherDriver": {
+				"Name": "MAHMOUD",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524640276",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 54.651714,
+			"WorldPosition": {
+				"X": 614.17395,
+				"Y": 67.16553,
+				"Z": 584.4434
+			},
+			"RelPosition": {
+				"X": -0.6137347,
+				"Y": -0.041712083,
+				"Z": -2.307885
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 12,
+			"Driver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 125.49405,
+			"WorldPosition": {
+				"X": 577.10645,
+				"Y": 73.58546,
+				"Z": 809.50824
+			},
+			"RelPosition": {
+				"X": -0.9249682,
+				"Y": 0.27045023,
+				"Z": -2.1191943
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 11,
+			"Driver": {
+				"Name": "MAHMOUD",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524640276",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Name": "ZAYED",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524447022",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 37.415054,
+			"WorldPosition": {
+				"X": 591.6954,
+				"Y": 73.48541,
+				"Z": 836.13965
+			},
+			"RelPosition": {
+				"X": -0.610527,
+				"Y": -0.06044449,
+				"Z": -2.3075686
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAYED",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524447022",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 11,
+			"OtherDriver": {
+				"Name": "MAHMOUD",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524640276",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 35.742634,
+			"WorldPosition": {
+				"X": 591.6719,
+				"Y": 73.48762,
+				"Z": 836.27783
+			},
+			"RelPosition": {
+				"X": 0.18491144,
+				"Y": -0.028214805,
+				"Z": 2.9966788
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 1,
+			"Driver": {
+				"Name": "Mr.Amir",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524702068",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 12,
+			"OtherDriver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 84.5141,
+			"WorldPosition": {
+				"X": -76.152626,
+				"Y": -2.6081111,
+				"Z": 95.43656
+			},
+			"RelPosition": {
+				"X": 0.9927457,
+				"Y": 0.19171062,
+				"Z": 1.5626073
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "Mr.Amir",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524702068",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 54.366188,
+			"WorldPosition": {
+				"X": -65.10747,
+				"Y": 0.66603905,
+				"Z": 1.308489
+			},
+			"RelPosition": {
+				"X": -0.9959704,
+				"Y": 0.32835454,
+				"Z": -2.0784588
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 12,
+			"Driver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Name": "Mr.Amir",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524702068",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 77.61999,
+			"WorldPosition": {
+				"X": -76.07385,
+				"Y": -2.8658333,
+				"Z": 94.69546
+			},
+			"RelPosition": {
+				"X": -0.9662627,
+				"Y": -0.039171353,
+				"Z": -1.4870241
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 12,
+			"Driver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Name": "Mr.Amir",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524702068",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 124.35809,
+			"WorldPosition": {
+				"X": -206.82674,
+				"Y": 11.822293,
+				"Z": -440.64523
+			},
+			"RelPosition": {
+				"X": -0.6787758,
+				"Y": -0.050664898,
+				"Z": -0.5135328
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 1,
+			"Driver": {
+				"Name": "Mr.Amir",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524702068",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 12,
+			"OtherDriver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 138.62495,
+			"WorldPosition": {
+				"X": -206.23448,
+				"Y": 11.702306,
+				"Z": -441.33777
+			},
+			"RelPosition": {
+				"X": 0.53254694,
+				"Y": -0.09794531,
+				"Z": 2.8760166
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "Mr.Amir",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524702068",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 102.3559,
+			"WorldPosition": {
+				"X": -181.02913,
+				"Y": 15.398379,
+				"Z": -497.25415
+			},
+			"RelPosition": {
+				"X": -0.96170205,
+				"Y": -0.13990857,
+				"Z": 2.780759
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 12,
+			"Driver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 52.191853,
+			"WorldPosition": {
+				"X": -207.67473,
+				"Y": 16.812454,
+				"Z": -536.7323
+			},
+			"RelPosition": {
+				"X": 0.0000059628564,
+				"Y": -0.023796955,
+				"Z": 3.1387007
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "Mr.Amir",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524702068",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 0.27499953,
+			"WorldPosition": {
+				"X": -183.9396,
+				"Y": 15.682623,
+				"Z": -501.57236
+			},
+			"RelPosition": {
+				"X": -0.9617043,
+				"Y": 0.016123893,
+				"Z": 2.7780507
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 12,
+			"Driver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 3.6659162,
+			"WorldPosition": {
+				"X": -189.67293,
+				"Y": 15.787106,
+				"Z": -510.6158
+			},
+			"RelPosition": {
+				"X": -0.9955909,
+				"Y": -0.18331143,
+				"Z": -2.102405
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 12,
+			"Driver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 1.0170156,
+			"WorldPosition": {
+				"X": -184.89368,
+				"Y": 15.568799,
+				"Z": -503.07773
+			},
+			"RelPosition": {
+				"X": -1.0030745,
+				"Y": -0.15282083,
+				"Z": 2.12936
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "Mr.Amir",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524702068",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 68.11347,
+			"WorldPosition": {
+				"X": -350.013,
+				"Y": -17.892298,
+				"Z": 775.6123
+			},
+			"RelPosition": {
+				"X": -0.88422817,
+				"Y": -0.14097922,
+				"Z": 2.7273803
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "Mr.Amir",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524702068",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 22.073555,
+			"WorldPosition": {
+				"X": -336.9956,
+				"Y": -17.77126,
+				"Z": 754.13403
+			},
+			"RelPosition": {
+				"X": -0.9616738,
+				"Y": -0.13990846,
+				"Z": 2.780766
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "Mr.Amir",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524702068",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 1.27565,
+			"WorldPosition": {
+				"X": -338.18518,
+				"Y": -17.302483,
+				"Z": 755.8819
+			},
+			"RelPosition": {
+				"X": -0.995992,
+				"Y": 0.32835346,
+				"Z": -2.0784733
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAYED",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524447022",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 64.37471,
+			"WorldPosition": {
+				"X": -355.35013,
+				"Y": -17.555382,
+				"Z": 785.5529
+			},
+			"RelPosition": {
+				"X": -0.9959704,
+				"Y": 0.3283542,
+				"Z": -2.0784488
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAYED",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524447022",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 43.488464,
+			"WorldPosition": {
+				"X": 466.8658,
+				"Y": 69.72839,
+				"Z": 952.1282
+			},
+			"RelPosition": {
+				"X": 0.0030118881,
+				"Y": -0.1489217,
+				"Z": 3.1282377
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAYED",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524447022",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 79.64676,
+			"WorldPosition": {
+				"X": -349.5056,
+				"Y": -17.861332,
+				"Z": 774.51337
+			},
+			"RelPosition": {
+				"X": -0.96167225,
+				"Y": -0.13990723,
+				"Z": 2.7807639
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 12,
+			"Driver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 18.091066,
+			"WorldPosition": {
+				"X": -165.9646,
+				"Y": 14.745728,
+				"Z": -478.93292
+			},
+			"RelPosition": {
+				"X": 0.99207443,
+				"Y": 0.0036960712,
+				"Z": 2.1286979
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAYED",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524447022",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 39.54776,
+			"WorldPosition": {
+				"X": -352.63162,
+				"Y": -17.933989,
+				"Z": 780.43677
+			},
+			"RelPosition": {
+				"X": -0.9616966,
+				"Y": -0.13990934,
+				"Z": 2.780785
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 11,
+			"Driver": {
+				"Name": "MAHMOUD",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524640276",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 35.008003,
+			"WorldPosition": {
+				"X": -363.6529,
+				"Y": -17.74691,
+				"Z": 801.7
+			},
+			"RelPosition": {
+				"X": -0.9959646,
+				"Y": 0.32773176,
+				"Z": -2.1141999
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAYED",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524447022",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 39.271378,
+			"WorldPosition": {
+				"X": -352.40042,
+				"Y": -17.455826,
+				"Z": 780.0618
+			},
+			"RelPosition": {
+				"X": -0.9959724,
+				"Y": 0.32835478,
+				"Z": -2.0784905
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAYED",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524447022",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 93.231186,
+			"WorldPosition": {
+				"X": -611.3029,
+				"Y": -28.68843,
+				"Z": 886.8694
+			},
+			"RelPosition": {
+				"X": -0.96902907,
+				"Y": -0.15394522,
+				"Z": -1.4300836
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 12,
+			"Driver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 58.803646,
+			"WorldPosition": {
+				"X": -342.15195,
+				"Y": 22.14176,
+				"Z": -758.4368
+			},
+			"RelPosition": {
+				"X": 0.99661255,
+				"Y": -0.18337339,
+				"Z": -2.1059115
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 12,
+			"Driver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 11,
+			"OtherDriver": {
+				"Name": "MAHMOUD",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524640276",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 56.554996,
+			"WorldPosition": {
+				"X": 592.1347,
+				"Y": 73.51796,
+				"Z": 854.2243
+			},
+			"RelPosition": {
+				"X": 0.0564282,
+				"Y": -0.03290882,
+				"Z": 3.1034827
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 11,
+			"Driver": {
+				"Name": "MAHMOUD",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524640276",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 12,
+			"OtherDriver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 56.687893,
+			"WorldPosition": {
+				"X": 592.1634,
+				"Y": 73.5202,
+				"Z": 854.2486
+			},
+			"RelPosition": {
+				"X": 0.49910414,
+				"Y": -0.0552516,
+				"Z": -2.311648
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 12,
+			"Driver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 11,
+			"OtherDriver": {
+				"Name": "MAHMOUD",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524640276",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 31.710608,
+			"WorldPosition": {
+				"X": 573.9952,
+				"Y": 73.240654,
+				"Z": 883.5838
+			},
+			"RelPosition": {
+				"X": -0.22455144,
+				"Y": -0.014744814,
+				"Z": 3.049982
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 11,
+			"Driver": {
+				"Name": "MAHMOUD",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199524640276",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 12,
+			"OtherDriver": {
+				"Name": "ABDULLA AL MAHMOUD",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 26.38982,
+			"WorldPosition": {
+				"X": 576.88196,
+				"Y": 73.2995,
+				"Z": 881.8552
+			},
+			"RelPosition": {
+				"X": -0.7440132,
+				"Y": -0.04727656,
+				"Z": 0.34137172
+			}
+		}
+	]
+}

@@ -1,0 +1,364 @@
+{
+	"TrackName": "acu_hungaroring",
+	"TrackConfig": "",
+	"Type": "QUALIFY",
+	"DurationSecs": 0,
+	"RaceLaps": 0,
+	"Cars": [
+		{
+			"CarId": 0,
+			"Driver": {
+				"Name": "Joel",
+				"Team": "",
+				"Nation": "FIN",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_0",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Name": "OMAR",
+				"Team": "",
+				"Nation": "SVN",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_1",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Name": "Andrea",
+				"Team": "",
+				"Nation": "ITA",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_2",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_3",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_4",
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Result": [
+		{
+			"DriverName": "OMAR",
+			"DriverGuid": "76561199439370240",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"BestLap": 106371,
+			"TotalTime": 454404,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Andrea",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"BestLap": 107812,
+			"TotalTime": 450294,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Joel",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"BestLap": 111285,
+			"TotalTime": 428658,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 3,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 4,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Laps": [
+		{
+			"DriverName": "OMAR",
+			"DriverGuid": "76561199439370240",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 24578543,
+			"LapTime": 120984,
+			"Sectors": [
+				53529,
+				37853,
+				29602
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "S",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Andrea",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 24582534,
+			"LapTime": 124980,
+			"Sectors": [
+				55342,
+				39172,
+				30466
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Joel",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 24663242,
+			"LapTime": 168143,
+			"Sectors": [
+				97188,
+				40018,
+				30937
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Andrea",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 24691495,
+			"LapTime": 108954,
+			"Sectors": [
+				40239,
+				38452,
+				30263
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "OMAR",
+			"DriverGuid": "76561199439370240",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 24698267,
+			"LapTime": 119727,
+			"Sectors": [
+				39888,
+				49410,
+				30429
+			],
+			"Cuts": 1,
+			"BallastKG": 0,
+			"Tyre": "S",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Joel",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 24774929,
+			"LapTime": 111684,
+			"Sectors": [
+				41043,
+				39986,
+				30655
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Andrea",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 24800036,
+			"LapTime": 108544,
+			"Sectors": [
+				39712,
+				38759,
+				30073
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "OMAR",
+			"DriverGuid": "76561199439370240",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 24805606,
+			"LapTime": 107316,
+			"Sectors": [
+				39883,
+				37895,
+				29538
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "S",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Joel",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 24886214,
+			"LapTime": 111285,
+			"Sectors": [
+				40882,
+				39807,
+				30596
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Andrea",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 24907845,
+			"LapTime": 107812,
+			"Sectors": [
+				39435,
+				38654,
+				29723
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "OMAR",
+			"DriverGuid": "76561199439370240",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 24911957,
+			"LapTime": 106371,
+			"Sectors": [
+				39258,
+				37826,
+				29287
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "S",
+			"Restrictor": 0
+		}
+	],
+	"Events": [
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "OMAR",
+				"Team": "",
+				"Nation": "SVN",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 65.01159,
+			"WorldPosition": {
+				"X": 344.9655,
+				"Y": 29.747393,
+				"Z": -193.45343
+			},
+			"RelPosition": {
+				"X": 0.6074378,
+				"Y": 0.0044503612,
+				"Z": 2.420298
+			}
+		}
+	]
+}

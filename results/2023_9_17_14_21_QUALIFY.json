@@ -1,0 +1,443 @@
+{
+	"TrackName": "acu_hungaroring",
+	"TrackConfig": "",
+	"Type": "QUALIFY",
+	"DurationSecs": 0,
+	"RaceLaps": 0,
+	"Cars": [
+		{
+			"CarId": 0,
+			"Driver": {
+				"Name": "CARSBYRAMI",
+				"Team": "",
+				"Nation": "ESP",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_0",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Name": "JAKOB",
+				"Team": "",
+				"Nation": "PAK",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_1",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Name": "Lucas Charles",
+				"Team": "",
+				"Nation": "MUS",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_2",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_3",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_4",
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Result": [
+		{
+			"DriverName": "Lucas Charles",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"BestLap": 110024,
+			"TotalTime": 360457,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "CARSBYRAMI",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "JAKOB",
+			"DriverGuid": "76561199439370240",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 3,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 4,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Laps": [
+		{
+			"DriverName": "Lucas Charles",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 6678341,
+			"LapTime": 126196,
+			"Sectors": [
+				57315,
+				39023,
+				29858
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "CARSBYRAMI",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 6734220,
+			"LapTime": 136765,
+			"Sectors": [
+				65048,
+				40325,
+				31392
+			],
+			"Cuts": 1,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Lucas Charles",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 6802571,
+			"LapTime": 124224,
+			"Sectors": [
+				50901,
+				40909,
+				32414
+			],
+			"Cuts": 1,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "JAKOB",
+			"DriverGuid": "76561199439370240",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 6816126,
+			"LapTime": 175870,
+			"Sectors": [
+				85749,
+				56718,
+				33403
+			],
+			"Cuts": 3,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "CARSBYRAMI",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 6845495,
+			"LapTime": 111268,
+			"Sectors": [
+				41068,
+				39465,
+				30735
+			],
+			"Cuts": 1,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Lucas Charles",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 6912587,
+			"LapTime": 110024,
+			"Sectors": [
+				40517,
+				38840,
+				30667
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		}
+	],
+	"Events": [
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "JAKOB",
+				"Team": "",
+				"Nation": "PAK",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 75.64787,
+			"WorldPosition": {
+				"X": -598.51154,
+				"Y": 35.178905,
+				"Z": -2.6783428
+			},
+			"RelPosition": {
+				"X": 0.6074478,
+				"Y": -0.20528054,
+				"Z": 2.4172928
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "Lucas Charles",
+				"Team": "",
+				"Nation": "MUS",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 41.645084,
+			"WorldPosition": {
+				"X": -501.1864,
+				"Y": 32.65629,
+				"Z": 50.999615
+			},
+			"RelPosition": {
+				"X": 0.0022003937,
+				"Y": -0.2047897,
+				"Z": 2.4735854
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 1,
+			"Driver": {
+				"Name": "JAKOB",
+				"Team": "",
+				"Nation": "PAK",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Name": "Lucas Charles",
+				"Team": "",
+				"Nation": "MUS",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 27.260414,
+			"WorldPosition": {
+				"X": 461.66174,
+				"Y": 35.808628,
+				"Z": 174.74667
+			},
+			"RelPosition": {
+				"X": 0.8680039,
+				"Y": 0.24130596,
+				"Z": -1.3458035
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 2,
+			"Driver": {
+				"Name": "Lucas Charles",
+				"Team": "",
+				"Nation": "MUS",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Name": "JAKOB",
+				"Team": "",
+				"Nation": "PAK",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 26.97063,
+			"WorldPosition": {
+				"X": 461.52728,
+				"Y": 35.60844,
+				"Z": 174.6835
+			},
+			"RelPosition": {
+				"X": -0.83905953,
+				"Y": 0.05981353,
+				"Z": 1.7546571
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "JAKOB",
+				"Team": "",
+				"Nation": "PAK",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 21.496445,
+			"WorldPosition": {
+				"X": 411.0426,
+				"Y": 36.46246,
+				"Z": 231.73973
+			},
+			"RelPosition": {
+				"X": -0.6030305,
+				"Y": 0.0044503054,
+				"Z": 2.4203143
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "CARSBYRAMI",
+				"Team": "",
+				"Nation": "ESP",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 2.1895916,
+			"WorldPosition": {
+				"X": 403.60306,
+				"Y": 32.539616,
+				"Z": -24.70175
+			},
+			"RelPosition": {
+				"X": 0.6074347,
+				"Y": 0.004448355,
+				"Z": 2.4202912
+			}
+		}
+	]
+}

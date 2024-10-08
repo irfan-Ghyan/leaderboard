@@ -1,0 +1,229 @@
+{
+	"TrackName": "acu_hungaroring",
+	"TrackConfig": "",
+	"Type": "QUALIFY",
+	"DurationSecs": 0,
+	"RaceLaps": 0,
+	"Cars": [
+		{
+			"CarId": 0,
+			"Driver": {
+				"Name": "Ayoub",
+				"Team": "",
+				"Nation": "DZA",
+				"Guid": "76561199385798318",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_0",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Name": "Andrew",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199436854343",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_1",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_2",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_3",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_4",
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Result": [
+		{
+			"DriverName": "Ayoub",
+			"DriverGuid": "76561199385798318",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"BestLap": 108362,
+			"TotalTime": 407304,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Andrew",
+			"DriverGuid": "76561199436854343",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"BestLap": 132180,
+			"TotalTime": 188256,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 3,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 4,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Laps": [
+		{
+			"DriverName": "Andrew",
+			"DriverGuid": "76561199436854343",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 188617,
+			"LapTime": 132180,
+			"Sectors": [
+				60954,
+				40986,
+				30240
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Ayoub",
+			"DriverGuid": "76561199385798318",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 189188,
+			"LapTime": 137084,
+			"Sectors": [
+				66570,
+				40090,
+				30424
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Ayoub",
+			"DriverGuid": "76561199385798318",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 297547,
+			"LapTime": 108362,
+			"Sectors": [
+				40457,
+				38102,
+				29803
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Andrew",
+			"DriverGuid": "76561199436854343",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 351317,
+			"LapTime": 162697,
+			"Sectors": [
+				42092,
+				55310,
+				65295
+			],
+			"Cuts": 4,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Ayoub",
+			"DriverGuid": "76561199385798318",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 407665,
+			"LapTime": 110108,
+			"Sectors": [
+				41034,
+				38398,
+				30676
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		}
+	],
+	"Events": null
+}

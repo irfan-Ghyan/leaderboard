@@ -1,0 +1,1284 @@
+{
+	"TrackName": "acu_hungaroring",
+	"TrackConfig": "",
+	"Type": "QUALIFY",
+	"DurationSecs": 0,
+	"RaceLaps": 0,
+	"Cars": [
+		{
+			"CarId": 0,
+			"Driver": {
+				"Name": "Sultan Al Braiki",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_0",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Name": "AMJAD",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_1",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_2",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_3",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_4",
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Result": [
+		{
+			"DriverName": "Sultan Al Braiki",
+			"DriverGuid": "76561199482152288",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"BestLap": 115475,
+			"TotalTime": 345711,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "AMJAD",
+			"DriverGuid": "76561199437441668",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 3,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 4,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Laps": [
+		{
+			"DriverName": "SAKER SAMR",
+			"DriverGuid": "76561199437441668",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 1108217,
+			"LapTime": 144983,
+			"Sectors": [
+				65068,
+				45157,
+				34758
+			],
+			"Cuts": 9,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Sultan Al Braiki",
+			"DriverGuid": "76561199482152288",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 1193465,
+			"LapTime": 137818,
+			"Sectors": [
+				62249,
+				43277,
+				32292
+			],
+			"Cuts": 2,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Sultan Al Braiki",
+			"DriverGuid": "76561199482152288",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 1308938,
+			"LapTime": 115475,
+			"Sectors": [
+				42067,
+				41765,
+				31643
+			],
+			"Cuts": 0,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		}
+	],
+	"Events": [
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 75.79255,
+			"WorldPosition": {
+				"X": -581.3514,
+				"Y": 35.352222,
+				"Z": -1.3340346
+			},
+			"RelPosition": {
+				"X": 0.60744876,
+				"Y": 0.004451665,
+				"Z": 2.420295
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 46.137756,
+			"WorldPosition": {
+				"X": 132.50502,
+				"Y": 34.054596,
+				"Z": 466.59854
+			},
+			"RelPosition": {
+				"X": 0.86799884,
+				"Y": 0.24130462,
+				"Z": -1.3457986
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 165.58273,
+			"WorldPosition": {
+				"X": -619.39716,
+				"Y": 35.399128,
+				"Z": 1.543191
+			},
+			"RelPosition": {
+				"X": 0.60741884,
+				"Y": 0.0044508358,
+				"Z": 2.4202986
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 30.92836,
+			"WorldPosition": {
+				"X": -124.078636,
+				"Y": 37.690357,
+				"Z": 435.04007
+			},
+			"RelPosition": {
+				"X": -0.6030361,
+				"Y": 0.004451028,
+				"Z": 2.4202957
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 161.69247,
+			"WorldPosition": {
+				"X": -619.6145,
+				"Y": 35.403095,
+				"Z": 1.6247873
+			},
+			"RelPosition": {
+				"X": 0.6074481,
+				"Y": 0.0044484725,
+				"Z": 2.4203007
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 13.621239,
+			"WorldPosition": {
+				"X": -641.07654,
+				"Y": 35.66212,
+				"Z": 18.475925
+			},
+			"RelPosition": {
+				"X": -0.8636004,
+				"Y": 0.24130812,
+				"Z": -1.3458005
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 152.64766,
+			"WorldPosition": {
+				"X": -149.58221,
+				"Y": 21.154305,
+				"Z": 250.03813
+			},
+			"RelPosition": {
+				"X": -0.6030289,
+				"Y": 0.0044504544,
+				"Z": 2.4203062
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 103.24998,
+			"WorldPosition": {
+				"X": -158.6497,
+				"Y": 13.086196,
+				"Z": 112.43152
+			},
+			"RelPosition": {
+				"X": -0.8550843,
+				"Y": 0.09688554,
+				"Z": 1.752036
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 119.89341,
+			"WorldPosition": {
+				"X": -141.925,
+				"Y": 3.7359684,
+				"Z": -58.56867
+			},
+			"RelPosition": {
+				"X": -0.7911964,
+				"Y": 0.25687513,
+				"Z": 1.7167697
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 41.12015,
+			"WorldPosition": {
+				"X": -109.545784,
+				"Y": 3.6733122,
+				"Z": -124.25141
+			},
+			"RelPosition": {
+				"X": -0.603041,
+				"Y": 0.0044500283,
+				"Z": 2.4203026
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 31.954483,
+			"WorldPosition": {
+				"X": 18.686436,
+				"Y": 14.779186,
+				"Z": -338.52832
+			},
+			"RelPosition": {
+				"X": -0.60303354,
+				"Y": -0.20528212,
+				"Z": 2.4172955
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 5.7909656,
+			"WorldPosition": {
+				"X": 18.27068,
+				"Y": 14.73389,
+				"Z": -338.06863
+			},
+			"RelPosition": {
+				"X": -0.6030235,
+				"Y": -0.20528296,
+				"Z": 2.417295
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 25.097803,
+			"WorldPosition": {
+				"X": -18.385048,
+				"Y": 13.718049,
+				"Z": -327.13788
+			},
+			"RelPosition": {
+				"X": 0.8680153,
+				"Y": 0.24130632,
+				"Z": -1.3457958
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 30.590616,
+			"WorldPosition": {
+				"X": -6.70835,
+				"Y": 14.267005,
+				"Z": -339.94388
+			},
+			"RelPosition": {
+				"X": 0.60744184,
+				"Y": 0.0044505033,
+				"Z": 2.420298
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 0.560202,
+			"WorldPosition": {
+				"X": 1.0740403,
+				"Y": 14.900688,
+				"Z": -354.5587
+			},
+			"RelPosition": {
+				"X": 0.60744244,
+				"Y": 0.0044495785,
+				"Z": 2.420301
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 0.3392584,
+			"WorldPosition": {
+				"X": 1.1568279,
+				"Y": 14.904674,
+				"Z": -354.64087
+			},
+			"RelPosition": {
+				"X": 0.60743946,
+				"Y": 0.0044503324,
+				"Z": 2.4202874
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 67.56849,
+			"WorldPosition": {
+				"X": 79.451294,
+				"Y": 21.185394,
+				"Z": -630.7645
+			},
+			"RelPosition": {
+				"X": 0.60743606,
+				"Y": 0.004448965,
+				"Z": 2.420298
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 73.259796,
+			"WorldPosition": {
+				"X": 100.056984,
+				"Y": 22.997646,
+				"Z": -581.266
+			},
+			"RelPosition": {
+				"X": -0.7429243,
+				"Y": 0.26847222,
+				"Z": 1.7502091
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 17.870014,
+			"WorldPosition": {
+				"X": 163.85771,
+				"Y": 26.024727,
+				"Z": -522.27844
+			},
+			"RelPosition": {
+				"X": 0.607464,
+				"Y": 0.0044505135,
+				"Z": 2.4203117
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 21.479914,
+			"WorldPosition": {
+				"X": 260.7738,
+				"Y": 28.650991,
+				"Z": -313.49625
+			},
+			"RelPosition": {
+				"X": 0.6074395,
+				"Y": 0.004450354,
+				"Z": 2.4203057
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 26.618048,
+			"WorldPosition": {
+				"X": 272.1939,
+				"Y": 28.922525,
+				"Z": -266.1937
+			},
+			"RelPosition": {
+				"X": 0.5535699,
+				"Y": -0.016381774,
+				"Z": 2.4163792
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 5.8967686,
+			"WorldPosition": {
+				"X": 274.91827,
+				"Y": 28.8104,
+				"Z": -255.02515
+			},
+			"RelPosition": {
+				"X": -0.60302454,
+				"Y": -0.2052822,
+				"Z": 2.4172878
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 26.623323,
+			"WorldPosition": {
+				"X": 254.98236,
+				"Y": 29.167778,
+				"Z": -253.84334
+			},
+			"RelPosition": {
+				"X": -0.86360073,
+				"Y": 0.09266904,
+				"Z": -1.3445023
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 1.9457874,
+			"WorldPosition": {
+				"X": 254.70958,
+				"Y": 29.305391,
+				"Z": -255.00458
+			},
+			"RelPosition": {
+				"X": -0.8657934,
+				"Y": 0.2458,
+				"Z": 1.7482698
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 48.02396,
+			"WorldPosition": {
+				"X": 314.7545,
+				"Y": 29.327343,
+				"Z": -228.0214
+			},
+			"RelPosition": {
+				"X": 0.33137512,
+				"Y": -0.09091312,
+				"Z": 2.4429214
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 44.623184,
+			"WorldPosition": {
+				"X": 395.2519,
+				"Y": 31.149857,
+				"Z": -128.29813
+			},
+			"RelPosition": {
+				"X": -0.86360854,
+				"Y": 0.24130696,
+				"Z": -1.3458046
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 14.237183,
+			"WorldPosition": {
+				"X": 407.07465,
+				"Y": 32.656536,
+				"Z": -35.293945
+			},
+			"RelPosition": {
+				"X": 0.8680087,
+				"Y": 0.24130724,
+				"Z": -1.3458047
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 22.922283,
+			"WorldPosition": {
+				"X": 405.61807,
+				"Y": 32.589146,
+				"Z": -31.141863
+			},
+			"RelPosition": {
+				"X": 0.87020767,
+				"Y": 0.088557325,
+				"Z": 1.7496332
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 9.891326,
+			"WorldPosition": {
+				"X": 414.63028,
+				"Y": 33.888634,
+				"Z": 41.69571
+			},
+			"RelPosition": {
+				"X": 0.8679966,
+				"Y": 0.24130552,
+				"Z": -1.345805
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 39.932762,
+			"WorldPosition": {
+				"X": 459.9464,
+				"Y": 35.199635,
+				"Z": 113.29991
+			},
+			"RelPosition": {
+				"X": 0.86799234,
+				"Y": 0.2413056,
+				"Z": -1.3458066
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 14.1396,
+			"WorldPosition": {
+				"X": 419.52835,
+				"Y": 36.57965,
+				"Z": 220.25963
+			},
+			"RelPosition": {
+				"X": -0.8635866,
+				"Y": 0.24130522,
+				"Z": -1.3458029
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 119.022934,
+			"WorldPosition": {
+				"X": 148.4289,
+				"Y": 34.538876,
+				"Z": 488.25058
+			},
+			"RelPosition": {
+				"X": 0.867994,
+				"Y": 0.09266849,
+				"Z": -1.3444986
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 89.76274,
+			"WorldPosition": {
+				"X": -37.354034,
+				"Y": 28.581413,
+				"Z": 340.82617
+			},
+			"RelPosition": {
+				"X": -0.6030435,
+				"Y": -0.20528172,
+				"Z": 2.4172907
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "SAKER SAMR",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 48.265347,
+			"WorldPosition": {
+				"X": 69.851814,
+				"Y": 38.57215,
+				"Z": 609.9927
+			},
+			"RelPosition": {
+				"X": 0.86799425,
+				"Y": 0.241305,
+				"Z": -1.3457971
+			}
+		}
+	]
+}

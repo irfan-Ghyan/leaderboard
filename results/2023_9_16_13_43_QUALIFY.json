@@ -1,0 +1,889 @@
+{
+	"TrackName": "acu_hungaroring",
+	"TrackConfig": "",
+	"Type": "QUALIFY",
+	"DurationSecs": 0,
+	"RaceLaps": 0,
+	"Cars": [
+		{
+			"CarId": 0,
+			"Driver": {
+				"Name": "Anwar",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_0",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_1",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_2",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_3",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_4",
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Result": [
+		{
+			"DriverName": "Anwar",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "FATHIMA AIMAN",
+			"DriverGuid": "76561199482152288",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 3,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 4,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Laps": [
+		{
+			"DriverName": "Anwar",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 2941560,
+			"LapTime": 138567,
+			"Sectors": [
+				60469,
+				46404,
+				31694
+			],
+			"Cuts": 3,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "FATHIMA AIMAN",
+			"DriverGuid": "76561199482152288",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 2958256,
+			"LapTime": 155338,
+			"Sectors": [
+				63237,
+				51542,
+				40559
+			],
+			"Cuts": 18,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "Anwar",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 3062542,
+			"LapTime": 121013,
+			"Sectors": [
+				44963,
+				43129,
+				32921
+			],
+			"Cuts": 7,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "FATHIMA AIMAN",
+			"DriverGuid": "76561199482152288",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 3093604,
+			"LapTime": 135357,
+			"Sectors": [
+				48052,
+				49644,
+				37661
+			],
+			"Cuts": 11,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		}
+	],
+	"Events": [
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 62.95046,
+			"WorldPosition": {
+				"X": -582.92487,
+				"Y": 35.148113,
+				"Z": -1.4495157
+			},
+			"RelPosition": {
+				"X": 0.60742676,
+				"Y": -0.20528196,
+				"Z": 2.4173133
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 33.021202,
+			"WorldPosition": {
+				"X": -445.5899,
+				"Y": 30.5569,
+				"Z": 63.60648
+			},
+			"RelPosition": {
+				"X": -0.86359733,
+				"Y": 0.092669636,
+				"Z": -1.3444986
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "Anwar",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 53.931793,
+			"WorldPosition": {
+				"X": -137.84285,
+				"Y": 15.844711,
+				"Z": 145.05795
+			},
+			"RelPosition": {
+				"X": -0.8635989,
+				"Y": 0.24130617,
+				"Z": -1.3458068
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 0,
+			"Driver": {
+				"Name": "Anwar",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 42.83015,
+			"WorldPosition": {
+				"X": -182.12985,
+				"Y": 10.699459,
+				"Z": 89.86078
+			},
+			"RelPosition": {
+				"X": -0.6205927,
+				"Y": -0.06575771,
+				"Z": -0.27705523
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 35.88597,
+			"WorldPosition": {
+				"X": -145.88113,
+				"Y": 14.707179,
+				"Z": 131.99303
+			},
+			"RelPosition": {
+				"X": -0.8636048,
+				"Y": 0.092669204,
+				"Z": -1.3445011
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Name": "Anwar",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 45.094143,
+			"WorldPosition": {
+				"X": -182.06009,
+				"Y": 10.564789,
+				"Z": 90.01661
+			},
+			"RelPosition": {
+				"X": 0.607447,
+				"Y": -0.20528233,
+				"Z": 2.4172976
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 35.5835,
+			"WorldPosition": {
+				"X": 376.04916,
+				"Y": 32.73766,
+				"Z": -19.109167
+			},
+			"RelPosition": {
+				"X": -0.8635857,
+				"Y": 0.09267054,
+				"Z": -1.3445042
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 15.643602,
+			"WorldPosition": {
+				"X": 430.53467,
+				"Y": 34.835377,
+				"Z": 119.33538
+			},
+			"RelPosition": {
+				"X": -0.86579496,
+				"Y": 0.2458018,
+				"Z": 1.7482675
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 52.950405,
+			"WorldPosition": {
+				"X": 82.78348,
+				"Y": 38.51318,
+				"Z": 607.7852
+			},
+			"RelPosition": {
+				"X": 0.86802644,
+				"Y": 0.24130823,
+				"Z": -1.3457937
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 75.045166,
+			"WorldPosition": {
+				"X": 35.02945,
+				"Y": 37.951412,
+				"Z": 581.3541
+			},
+			"RelPosition": {
+				"X": -0.8181809,
+				"Y": 0.051786438,
+				"Z": 1.7219651
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "Anwar",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 29.872711,
+			"WorldPosition": {
+				"X": -143.45778,
+				"Y": 15.195699,
+				"Z": 135.8886
+			},
+			"RelPosition": {
+				"X": -0.8636047,
+				"Y": 0.24130619,
+				"Z": -1.3458005
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "Anwar",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 7.1078625,
+			"WorldPosition": {
+				"X": -161.77757,
+				"Y": 12.806703,
+				"Z": 108.48039
+			},
+			"RelPosition": {
+				"X": -0.86579335,
+				"Y": 0.24580114,
+				"Z": 1.7482662
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 60.17842,
+			"WorldPosition": {
+				"X": -121.19703,
+				"Y": 18.59683,
+				"Z": 190.88657
+			},
+			"RelPosition": {
+				"X": -0.8555769,
+				"Y": 0.2417126,
+				"Z": -1.2992485
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 136.26935,
+			"WorldPosition": {
+				"X": 25.91788,
+				"Y": 19.470554,
+				"Z": -650.071
+			},
+			"RelPosition": {
+				"X": 0.49255437,
+				"Y": -0.028963417,
+				"Z": 2.293623
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 45.200504,
+			"WorldPosition": {
+				"X": 363.40408,
+				"Y": 30.076376,
+				"Z": -220.40123
+			},
+			"RelPosition": {
+				"X": 0.86800283,
+				"Y": 0.2413072,
+				"Z": -1.3458048
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 98.700386,
+			"WorldPosition": {
+				"X": -27.604326,
+				"Y": 28.638609,
+				"Z": 326.04202
+			},
+			"RelPosition": {
+				"X": -0.39403567,
+				"Y": -0.015690807,
+				"Z": 2.3412116
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 53.66468,
+			"WorldPosition": {
+				"X": -138.15042,
+				"Y": 15.654968,
+				"Z": 144.52972
+			},
+			"RelPosition": {
+				"X": -0.8635929,
+				"Y": 0.09266992,
+				"Z": -1.3445028
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 46.03502,
+			"WorldPosition": {
+				"X": 382.03265,
+				"Y": 32.106335,
+				"Z": -59.86752
+			},
+			"RelPosition": {
+				"X": -0.8657871,
+				"Y": 0.08855655,
+				"Z": 1.7496283
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 27.74791,
+			"WorldPosition": {
+				"X": 400.40012,
+				"Y": 33.223694,
+				"Z": 1.3857378
+			},
+			"RelPosition": {
+				"X": 0.86801404,
+				"Y": 0.24130723,
+				"Z": -1.3457999
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "Anwar",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 20.289213,
+			"WorldPosition": {
+				"X": -588.50635,
+				"Y": 35.164623,
+				"Z": -1.7494408
+			},
+			"RelPosition": {
+				"X": 0.60745126,
+				"Y": -0.20528167,
+				"Z": 2.4172766
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "FATHIMA AIMAN",
+				"Team": "",
+				"Nation": "AC",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 62.517178,
+			"WorldPosition": {
+				"X": 31.687521,
+				"Y": 38.602856,
+				"Z": 607.1522
+			},
+			"RelPosition": {
+				"X": 0.8680232,
+				"Y": 0.24130678,
+				"Z": -1.3458118
+			}
+		}
+	]
+}

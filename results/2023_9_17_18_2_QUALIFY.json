@@ -1,0 +1,801 @@
+{
+	"TrackName": "acu_hungaroring",
+	"TrackConfig": "",
+	"Type": "QUALIFY",
+	"DurationSecs": 0,
+	"RaceLaps": 0,
+	"Cars": [
+		{
+			"CarId": 0,
+			"Driver": {
+				"Name": "siegfried reantaso",
+				"Team": "",
+				"Nation": "PHL",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_0",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 1,
+			"Driver": {
+				"Name": "NICOLE",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_1",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAINUDDIN SIKDER",
+				"Team": "",
+				"Nation": "BGD",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_2",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 3,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_3",
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"CarId": 4,
+			"Driver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": [
+					""
+				]
+			},
+			"Model": "tatuusfa1",
+			"Skin": "scheme_4",
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Result": [
+		{
+			"DriverName": "siegfried reantaso",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "NICOLE",
+			"DriverGuid": "76561199439370240",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ZAINUDDIN SIKDER",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 3,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "",
+			"DriverGuid": "",
+			"CarId": 4,
+			"CarModel": "tatuusfa1",
+			"BestLap": 999999999,
+			"TotalTime": 0,
+			"BallastKG": 0,
+			"Restrictor": 0
+		}
+	],
+	"Laps": [
+		{
+			"DriverName": "siegfried reantaso",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 19957079,
+			"LapTime": 148019,
+			"Sectors": [
+				64445,
+				50148,
+				33426
+			],
+			"Cuts": 4,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "NICOLE",
+			"DriverGuid": "76561199439370240",
+			"CarId": 1,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 20079035,
+			"LapTime": 193618,
+			"Sectors": [
+				73022,
+				64490,
+				56106
+			],
+			"Cuts": 2,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "siegfried reantaso",
+			"DriverGuid": "76561199437441668",
+			"CarId": 0,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 20082118,
+			"LapTime": 125039,
+			"Sectors": [
+				44854,
+				47398,
+				32787
+			],
+			"Cuts": 2,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		},
+		{
+			"DriverName": "ZAINUDDIN SIKDER",
+			"DriverGuid": "76561199482152288",
+			"CarId": 2,
+			"CarModel": "tatuusfa1",
+			"Timestamp": 20108421,
+			"LapTime": 216978,
+			"Sectors": [
+				99986,
+				62699,
+				54293
+			],
+			"Cuts": 10,
+			"BallastKG": 0,
+			"Tyre": "M",
+			"Restrictor": 0
+		}
+	],
+	"Events": [
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 0,
+			"Driver": {
+				"Name": "siegfried reantaso",
+				"Team": "",
+				"Nation": "PHL",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 38.10231,
+			"WorldPosition": {
+				"X": 225.7222,
+				"Y": 28.596869,
+				"Z": -356.12708
+			},
+			"RelPosition": {
+				"X": -0.8453291,
+				"Y": 0.24828966,
+				"Z": 1.7329284
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "NICOLE",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 74.2793,
+			"WorldPosition": {
+				"X": -121.24381,
+				"Y": 18.041346,
+				"Z": 189.3979
+			},
+			"RelPosition": {
+				"X": -0.6030332,
+				"Y": -0.20528121,
+				"Z": 2.4172983
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAINUDDIN SIKDER",
+				"Team": "",
+				"Nation": "BGD",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 133.9842,
+			"WorldPosition": {
+				"X": -612.61993,
+				"Y": 35.191547,
+				"Z": 0.47456375
+			},
+			"RelPosition": {
+				"X": 0.6074223,
+				"Y": -0.20528427,
+				"Z": 2.4172976
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAINUDDIN SIKDER",
+				"Team": "",
+				"Nation": "BGD",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 0.6458595,
+			"WorldPosition": {
+				"X": -611.8205,
+				"Y": 35.199566,
+				"Z": 0.6149971
+			},
+			"RelPosition": {
+				"X": 0.00221092,
+				"Y": -0.2047907,
+				"Z": 2.4735844
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAINUDDIN SIKDER",
+				"Team": "",
+				"Nation": "BGD",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 13.118714,
+			"WorldPosition": {
+				"X": -612.5906,
+				"Y": 35.619675,
+				"Z": 78.600494
+			},
+			"RelPosition": {
+				"X": 0.86799985,
+				"Y": 0.24130602,
+				"Z": -1.3458014
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAINUDDIN SIKDER",
+				"Team": "",
+				"Nation": "BGD",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 62.32685,
+			"WorldPosition": {
+				"X": 226.89896,
+				"Y": 28.17485,
+				"Z": -351.22577
+			},
+			"RelPosition": {
+				"X": -0.60304993,
+				"Y": -0.20528306,
+				"Z": 2.4172947
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAINUDDIN SIKDER",
+				"Team": "",
+				"Nation": "BGD",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Name": "siegfried reantaso",
+				"Team": "",
+				"Nation": "PHL",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 20.86487,
+			"WorldPosition": {
+				"X": 308.71027,
+				"Y": 29.581898,
+				"Z": -218.21553
+			},
+			"RelPosition": {
+				"X": -0.86359334,
+				"Y": 0.09684377,
+				"Z": -1.3445276
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 0,
+			"Driver": {
+				"Name": "siegfried reantaso",
+				"Team": "",
+				"Nation": "PHL",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Name": "ZAINUDDIN SIKDER",
+				"Team": "",
+				"Nation": "BGD",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 22.051342,
+			"WorldPosition": {
+				"X": 309.01892,
+				"Y": 29.549856,
+				"Z": -218.18341
+			},
+			"RelPosition": {
+				"X": 0.8489528,
+				"Y": 0.06421438,
+				"Z": 1.7574714
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAINUDDIN SIKDER",
+				"Team": "",
+				"Nation": "BGD",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 0,
+			"OtherDriver": {
+				"Name": "siegfried reantaso",
+				"Team": "",
+				"Nation": "PHL",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 16.093414,
+			"WorldPosition": {
+				"X": 373.02795,
+				"Y": 30.14158,
+				"Z": -206.6522
+			},
+			"RelPosition": {
+				"X": -0.8657922,
+				"Y": 0.24233225,
+				"Z": 1.3509
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 0,
+			"Driver": {
+				"Name": "siegfried reantaso",
+				"Team": "",
+				"Nation": "PHL",
+				"Guid": "76561199437441668",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Name": "ZAINUDDIN SIKDER",
+				"Team": "",
+				"Nation": "BGD",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 8.673192,
+			"WorldPosition": {
+				"X": 399.007,
+				"Y": 30.370407,
+				"Z": -191.98682
+			},
+			"RelPosition": {
+				"X": 0.87018985,
+				"Y": 0.18876137,
+				"Z": 1.7487547
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAINUDDIN SIKDER",
+				"Team": "",
+				"Nation": "BGD",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 86.65385,
+			"WorldPosition": {
+				"X": 143.52693,
+				"Y": 31.989817,
+				"Z": 403.14563
+			},
+			"RelPosition": {
+				"X": 0.60743976,
+				"Y": -0.20528276,
+				"Z": 2.4172862
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAINUDDIN SIKDER",
+				"Team": "",
+				"Nation": "BGD",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 9.005809,
+			"WorldPosition": {
+				"X": 143.51543,
+				"Y": 32.204918,
+				"Z": 403.21793
+			},
+			"RelPosition": {
+				"X": 0.60744745,
+				"Y": 0.004450106,
+				"Z": 2.4203098
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "NICOLE",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 99.47269,
+			"WorldPosition": {
+				"X": -592.85693,
+				"Y": 35.386913,
+				"Z": -2.2391434
+			},
+			"RelPosition": {
+				"X": 0.6074227,
+				"Y": 0.0044511165,
+				"Z": 2.4203117
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAINUDDIN SIKDER",
+				"Team": "",
+				"Nation": "BGD",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 79.76874,
+			"WorldPosition": {
+				"X": -596.6796,
+				"Y": 35.392822,
+				"Z": -2.4840214
+			},
+			"RelPosition": {
+				"X": 0.0021999988,
+				"Y": 0.0044509466,
+				"Z": 2.4203007
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 1,
+			"Driver": {
+				"Name": "NICOLE",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 105.22795,
+			"WorldPosition": {
+				"X": 148.13438,
+				"Y": 34.185616,
+				"Z": 487.99835
+			},
+			"RelPosition": {
+				"X": 0.6074363,
+				"Y": -0.20528221,
+				"Z": 2.4172978
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAINUDDIN SIKDER",
+				"Team": "",
+				"Nation": "BGD",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 1,
+			"OtherDriver": {
+				"Name": "NICOLE",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 84.77698,
+			"WorldPosition": {
+				"X": 56.503197,
+				"Y": 29.467352,
+				"Z": 354.6183
+			},
+			"RelPosition": {
+				"X": 0.73061043,
+				"Y": 0.22663797,
+				"Z": 1.6945221
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_CAR",
+			"CarId": 1,
+			"Driver": {
+				"Name": "NICOLE",
+				"Team": "",
+				"Nation": "ARE",
+				"Guid": "76561199439370240",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": 2,
+			"OtherDriver": {
+				"Name": "ZAINUDDIN SIKDER",
+				"Team": "",
+				"Nation": "BGD",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"ImpactSpeed": 84.29605,
+			"WorldPosition": {
+				"X": 56.526817,
+				"Y": 29.286762,
+				"Z": 354.74493
+			},
+			"RelPosition": {
+				"X": -0.7914415,
+				"Y": 0.028465765,
+				"Z": -1.3909091
+			}
+		},
+		{
+			"Type": "COLLISION_WITH_ENV",
+			"CarId": 2,
+			"Driver": {
+				"Name": "ZAINUDDIN SIKDER",
+				"Team": "",
+				"Nation": "BGD",
+				"Guid": "76561199482152288",
+				"GuidsList": [
+					""
+				]
+			},
+			"OtherCarId": -1,
+			"OtherDriver": {
+				"Name": "",
+				"Team": "",
+				"Nation": "",
+				"Guid": "",
+				"GuidsList": null
+			},
+			"ImpactSpeed": 107.80949,
+			"WorldPosition": {
+				"X": -608.0347,
+				"Y": 35.397644,
+				"Z": 0.35719556
+			},
+			"RelPosition": {
+				"X": 0.60741407,
+				"Y": 0.004451127,
+				"Z": 2.4203057
+			}
+		}
+	]
+}
