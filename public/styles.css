@@ -51,7 +51,7 @@ body {
     }
 
     .header {
-        height: 18%;
+        height: 160px;
         /* Keep this empty space at the top */
         background-color: rgba(0, 0, 0, 0.7);
         ;
@@ -124,7 +124,7 @@ body {
     }
 
     .header {
-        height: 12%;
+        height: 140px;
         /* Keep this empty space at the top */
     }
 

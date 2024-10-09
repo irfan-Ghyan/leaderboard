@@ -4,9 +4,7 @@ let isScrolling = false; // Flag to track if scrolling is active
 const scrollDelay = 5000; // Delay for scrolling
 
 async function fetchResults() {
-    const response = await fetch('/api/leaderboard');
-
-    
+    const response = await fetch('http://localhost:3000/api/leaderboard');
     results = await response.json();
     displayResults(results);
     console.log(results)
@@ -34,7 +32,7 @@ async function fetchResults() {
 // Function to fetch data from the API
 async function fetchCarAndTrack() {
     try {
-        const response = await fetch('/api/settings');
+        const response = await fetch('http://localhost:3000/api/settings');
 
         
         if (!response.ok) {
