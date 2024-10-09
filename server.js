@@ -46,6 +46,7 @@ loadSettings();
 // Endpoint to get leaderboard data
 app.get('/api/leaderboard', (req, res) => {
   // Check if a maxResults query parameter is provided
+  res.setHeader('Access-Control-Allow-Origin', '*');
   
   const requestedMaxResults = parseInt(req.query.maxResults, 10);
   if (!isNaN(requestedMaxResults) && requestedMaxResults > 0) {
@@ -76,6 +77,7 @@ app.get('/api/leaderboard', (req, res) => {
 // Endpoint to get current settings
 app.get('/api/settings', (req, res) => {
   res.json(settings); // Send the settings as JSON
+  res.setHeader('Access-Control-Allow-Origin', '*');
 });
 
 // Endpoint to save settings
