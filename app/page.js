@@ -1,101 +1,250 @@
-import Image from "next/image";
+// import Image from "next/image";
 
-export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+// export default function Home() {
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
-}
+//   let results = []; // Array to hold the results
+//   let scrollInterval; // Variable to hold the scroll interval
+//   let isScrolling = false; // Flag to track if scrolling is active
+//   const scrollDelay = 5000; // Delay for scrolling
+  
+//   async function fetchResults() {
+//       const response = await fetch('/api/leaderboard');
+//       results = await response.json();
+//       displayResults(results);
+//       console.log(results)
+//   }
+  
+//   // async function fetchCarAndTrack() {
+//   //     try {
+//   //         const response = await fetch('/api/settings'); // Adjust this endpoint as needed
+//   //         console.log(response);
+//   //         const data = await response.json();
+          
+//   //         console.log("Fetched settings:", data); // Log the response data
+  
+//   //         // Update the track and car information
+//   //         document.getElementById('trackName').textContent = data.trackTitle || 'Track not available';
+//   //         document.getElementById('carName').textContent = data.carTitle || 'Car not available';
+//   //     } catch (error) {
+//   //         console.error("Error fetching car and track data:", error);
+//   //         document.getElementById('trackName').textContent = 'Error loading track';
+//   //         document.getElementById('carName').textContent = 'Error loading car';
+//   //     }
+//   // }
+  
+  
+//   // Function to fetch data from the API
+//   async function fetchCarAndTrack() {
+//       try {
+//           const response = await fetch('/api/settings'); // Make sure your API is correct
+          
+//           if (!response.ok) {
+//               throw new Error(`HTTP error! Status: ${response.status}`);
+//           }
+  
+//           const data = await response.json();
+//           console.log("Fetched data:", data);
+  
+//           // Update the track name and car name in the HTML
+//           document.getElementById('trackName').textContent = data.trackTitle || 'Track not available';
+//           document.getElementById('carName').textContent = data.carTitle || 'Car not available';
+          
+//       } catch (error) {
+//           console.error('Error fetching car and track data:', error);
+  
+//           // Show error messages in the HTML
+//           document.getElementById('trackName').textContent = 'Error loading track';
+//           document.getElementById('carName').textContent = 'Error loading car';
+//       }
+//   }
+  
+//   window.onload = async () => {
+//       await fetchCarAndTrack(); // Fetch track and car data on page load
+//   };
+  
+  
+  
+//   // function displayResults(results) {
+//   //     const resultsBody = document.getElementById('resultsBody');
+//   //     resultsBody.innerHTML = ''; // Clear existing results
+  
+//   //     results.forEach((result, index) => {
+//   //         const row = document.createElement('tr');
+//   //         row.className = 'result-row'; // Add a class for styling
+//   //         const lapTime = formatLapTime(result.bestLap);
+  
+//   //         // Define background colors for specific positions
+//   //         let nameBackgroundColor = '';
+//   //         if (index === 0) {
+//   //             nameBackgroundColor = 'gold';
+//   //         } else if (index === 1) {
+//   //             nameBackgroundColor = 'silver';
+//   //         } else if (index === 2) {
+//   //             nameBackgroundColor = '#cd7f32';
+//   //         } else {
+//   //             // For other rows, alternate between two colors or generate a dynamic color
+//   //             nameBackgroundColor = index % 2 === 0 ? '#f2f2f2' : '#e6e6e6'; // Alternate colors
+//   //         }
+  
+//   //         // Insert the row with dynamic background color
+//   //         row.innerHTML = `
+//   //             <td class="position" style="background-color: ${nameBackgroundColor};">${index + 1}</td>
+//   //             <td class="name" style="background-color: ${nameBackgroundColor};">${result.driverName}</td>
+//   //             <td class="time" style="background-color: ${nameBackgroundColor};">${lapTime}</td>
+//   //         `;
+//   //         resultsBody.appendChild(row);
+//   //     });
+  
+//   //     setTimeout(startAutoScroll, 5000); // Delay scroll start by 5 seconds
+//   // }
+  
+  
+  
+//   // Function to display the results in the DOM
+//   function displayResults(results) {
+//       const resultsBody = document.getElementById('resultsBody');
+//       resultsBody.innerHTML = ''; // Clear existing results
+  
+//       results.forEach((result, index) => {
+//           const row = document.createElement('tr');
+//           row.className = 'result-row'; // Add a class for styling
+//           const lapTime = formatLapTime(result.bestLap);
+  
+//           // Define background colors for specific positions
+//           let nameBackgroundColor = '';
+//           if (index === 0) {
+//               nameBackgroundColor = 'gold';
+//           } else if (index === 1) {
+//               nameBackgroundColor = 'silver';
+//           } else if (index === 2) {
+//               nameBackgroundColor = '#cd7f32'; // Bronze
+//           } else {
+//               // For other rows, alternate between two colors
+//               nameBackgroundColor = index % 2 === 0 ? '#f2f2f2' : '#e6e6e6'; // Alternate colors
+//           }
+  
+//           // Insert the row with dynamic background color
+//           row.innerHTML = `
+//               <td class="position" style="background-color: ${nameBackgroundColor};">${index + 1}</td>
+//               <td class="name" style="background-color: ${nameBackgroundColor};">${result.driverName}</td>
+//               <td class="time" style="background-color: ${nameBackgroundColor};">${lapTime}</td>
+//           `;
+//           resultsBody.appendChild(row);
+//       });
+  
+//       setTimeout(startAutoScroll, 5000); // Delay scroll start by 5 seconds
+//   }
+  
+  
+//   // Function to populate results into the DOM
+//   function populateResults(data) {
+//       const resultsBody = document.getElementById('resultsBody');
+//       resultsBody.innerHTML = ''; // Clear any existing content
+  
+//       // Loop through each item and create a new row
+//       data.forEach((item) => {
+//           const row = document.createElement('div');
+//           row.classList.add('result-row');
+//           row.innerHTML = `
+//               <div>${item.driverName}</div>
+//               <div>${item.carModel}</div>
+//               <div>${item.trackName}</div>
+//               <div>${item.bestLap}</div>
+//           `;
+//           resultsBody.appendChild(row);
+//       });
+//   }
+  
+//   // Function to start auto-scrolling
+//   function startAutoScroll() {
+//       if (isScrolling) return; // Prevent multiple intervals from starting
+//       isScrolling = true; // Set the scrolling flag
+//       const resultsBody = document.getElementById('resultsBody');
+//       const resultsContainer = document.querySelector('.results-container');
+//       let scrollPosition = 0;
+//       const maxScroll = resultsBody.scrollHeight - resultsContainer.clientHeight;
+  
+//       scrollInterval = setInterval(() => {
+//           scrollPosition += 1; // Scroll down by one row
+//           resultsContainer.scrollTop = scrollPosition;
+  
+//           // Check if reached the end of the scroll
+//           if (scrollPosition >= maxScroll) {
+//               clearInterval(scrollInterval); // Stop scrolling
+//               isScrolling = false; // Reset the scrolling flag
+  
+//               // Wait for 5 seconds before restarting
+//               setTimeout(() => {
+//                   restartScroll(); // Call restart function
+//               }, scrollDelay); // 5 seconds delay before restarting
+//           }
+//       }, 50); // Adjust the speed of the scroll here
+//   }
+  
+//   // Function to restart the scroll
+//   function restartScroll() {
+//       const resultsContainer = document.querySelector('.results-container');
+//       resultsContainer.scrollTop = 0; // Reset scroll position to top
+//       startAutoScroll(); // Start scrolling again
+//   }
+  
+//   // When the page loads, fetch the data and start scrolling
+//   window.onload = async function() {
+//       await fetchCarAndTrack(); // Fetch data before scrolling
+//       startAutoScroll(); // Start the scroll after data is populated
+//   };
+  
+  
+  
+//   function restartScroll() {
+//       const resultsContainer = document.querySelector('.results-container');
+//       resultsContainer.scrollTop = 0; // Reset scroll position
+  
+//       // Wait for 5 seconds before starting to scroll again
+//       setTimeout(() => {
+//           startAutoScroll(); // Start scrolling again
+//       }, scrollDelay); // 5 seconds delay before starting to scroll
+//   }
+  
+//   function formatLapTime(lapTimeMs) {
+//       const totalSeconds = Math.floor(lapTimeMs / 1000);
+//       const minutes = Math.floor(totalSeconds / 60);
+//       const seconds = totalSeconds % 60;
+//       const milliseconds = Math.floor(lapTimeMs % 1000); // Use floor to get the whole milliseconds
+//       return `${minutes}:${seconds.toString().padStart(2, '0')}.${milliseconds.toString().padStart(3, '0').slice(0, 3)}`; // Display milliseconds
+//   }
+  
+//   // Fetch results and settings when the page loads
+//   window.onload = async () => {
+//       await fetchCarAndTrack();
+//       fetchResults();
+//   };
+  
+
+//   return (
+//     <div class="container portrait">
+//     <div class="header">
+//         <div class="info-row">
+//             <div>
+//                 <img src="/logo1.png" class="info-logo" alt="Logo" /> <!-- Updated Image tag -->
+//             </div>
+//             <div class="value" id="trackName">Loading Track...</div> <!-- Track name -->
+//             <span class="separator">-</span> <!-- Separator -->
+//             <div class="value" id="carName">Loading Car...</div> <!-- Car name -->
+//         </div>
+//     </div>
+//     <div class="header1">
+//         <div>
+//             <img src="/man.png" class="info-img" alt="Man" /> <!-- Updated Image tag -->
+//         </div>
+//     </div>
+//     <div class="results-container">
+//         <table id="resultsTable">
+//             <tbody id="resultsBody">
+//                 <!-- Results will be populated here -->
+//             </tbody>
+//         </table>
+//     </div>
+// </div>
+//   );
+// }
