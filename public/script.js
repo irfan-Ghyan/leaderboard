@@ -5,6 +5,8 @@ const scrollDelay = 5000; // Delay for scrolling
 
 async function fetchResults() {
     const response = await fetch('http://localhost:3000/api/leaderboard');
+
+    
     
     results = await response.json();
     displayResults(results);

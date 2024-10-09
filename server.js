@@ -2,14 +2,10 @@
 const express = require('express');
 const fs = require('fs-extra');
 const path = require('path');
-const cors = require('cors');
-
 
 const app = express();
 const PORT = 3000;
 const DATA_DIR = "D:\\Leaderboard\\results"; 
-
-app.use(cors({ origin: 'http://localhost:3000' }));
 
 let leaderboardData = [];
 
@@ -50,7 +46,6 @@ loadSettings();
 // Endpoint to get leaderboard data
 app.get('/api/leaderboard', (req, res) => {
   // Check if a maxResults query parameter is provided
-  
   const requestedMaxResults = parseInt(req.query.maxResults, 10);
   if (!isNaN(requestedMaxResults) && requestedMaxResults > 0) {
     settings.maxResults = requestedMaxResults; // Update maxResults if valid
@@ -164,5 +159,3 @@ app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
   readJSONFiles(); // Initial read
 });
-
-
