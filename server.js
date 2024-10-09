@@ -13,7 +13,7 @@ let leaderboardData = [];
 // CORS middleware
 app.use(cors({
   origin: 'http://localhost:3000', 
-  methods: ['OPTIONS'], 
+  methods: ['GET', 'POST', 'OPTIONS'], 
   credentials: true 
 }));
 
