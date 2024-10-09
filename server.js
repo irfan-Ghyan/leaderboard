@@ -2,10 +2,14 @@
 const express = require('express');
 const fs = require('fs-extra');
 const path = require('path');
+const cors = require('cors');
+
 
 const app = express();
 const PORT = 3000;
 const DATA_DIR = "D:\\Leaderboard\\results"; 
+
+app.use(cors({ origin: 'http://localhost:3000' }));
 
 let leaderboardData = [];
 
@@ -46,7 +50,6 @@ loadSettings();
 // Endpoint to get leaderboard data
 app.get('/api/leaderboard', (req, res) => {
   // Check if a maxResults query parameter is provided
-  res.setHeader('Access-Control-Allow-Origin', '*');
   
   const requestedMaxResults = parseInt(req.query.maxResults, 10);
   if (!isNaN(requestedMaxResults) && requestedMaxResults > 0) {
@@ -77,7 +80,6 @@ app.get('/api/leaderboard', (req, res) => {
 // Endpoint to get current settings
 app.get('/api/settings', (req, res) => {
   res.json(settings); // Send the settings as JSON
-  res.setHeader('Access-Control-Allow-Origin', '*');
 });
 
 // Endpoint to save settings
@@ -164,32 +166,3 @@ app.listen(PORT, () => {
 });
 
 
-const express = require('express');
-const cors = require('cors');
-
-
-// Enable CORS for all routes
-app.use(cors());
-
-// Or if you want to specify certain origins:
-// app.use(cors({ origin: 'http://example.com' })); // Replace with your frontend domain
-
-app.get('/api/settings', (req, res) => {
-    res.json({
-        trackTitle: 'Awesome Track',
-        carTitle: 'Super Car'
-    });
-});
-
-app.get('/api/leaderboard', (req, res) => {
-    res.json([
-        { driverName: 'John Doe', bestLap: 124000 },
-        { driverName: 'Jane Smith', bestLap: 126000 },
-        { driverName: 'Sammy Racer', bestLap: 128000 }
-    ]);
-});
-
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-});
