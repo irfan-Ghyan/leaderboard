@@ -4,9 +4,10 @@ let isScrolling = false; // Flag to track if scrolling is active
 const scrollDelay = 5000; // Delay for scrolling
 
 async function fetchResults() {
-    const response = await fetch('http://localhost:3000/api/leaderboard');
+    const response = await fetch('/api/leaderboard');
     results = await response.json();
     displayResults(results);
+    console.log(results)
 }
 
 // async function fetchCarAndTrack() {
@@ -29,21 +30,52 @@ async function fetchResults() {
 
 
 // Function to fetch data from the API
+// async function fetchCarAndTrack() {
+//     try {
+//         const response = await fetch('/api/settings');
+        
+//         if (!response.ok) {
+//             throw new Error(`HTTP error! Status: ${response.status}`);
+//         }
+
+//         const data = await response.json();
+//         populateResults(data); // Call function to populate results
+//         return data;
+//     } catch (error) {
+//         console.error('Error fetching car and track data:', error);
+//     }
+// }
+
+
+// Function to fetch data from the API
 async function fetchCarAndTrack() {
     try {
-        const response = await fetch('http://localhost:3000/api/settings');
+        const response = await fetch('/api/settings'); // Make sure your API is correct
         
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
         const data = await response.json();
-        populateResults(data); // Call function to populate results
-        return data;
+        console.log("Fetched data:", data);
+
+        // Update the track name and car name in the HTML
+        document.getElementById('trackName').textContent = data.trackTitle || 'Track not available';
+        document.getElementById('carName').textContent = data.carTitle || 'Car not available';
+        
     } catch (error) {
         console.error('Error fetching car and track data:', error);
+
+        // Show error messages in the HTML
+        document.getElementById('trackName').textContent = 'Error loading track';
+        document.getElementById('carName').textContent = 'Error loading car';
     }
 }
+
+window.onload = async () => {
+    await fetchCarAndTrack(); // Fetch track and car data on page load
+};
+
 
 
 // function displayResults(results) {
