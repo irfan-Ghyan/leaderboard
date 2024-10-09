@@ -34,7 +34,7 @@ async function fetchResults() {
 async function fetchCarAndTrack() {
     try {
         const response = await fetch('http://localhost:3000/api/settings');
-        res.setHeader('Access-Control-Allow-Origin', '*');
+
         
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
