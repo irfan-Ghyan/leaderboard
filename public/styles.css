@@ -18,24 +18,24 @@ body {
 }
 
 .header {
-    height: 30%;
+    height: 200PX;
     /* Keep this empty space at the top */
     background-color: rgba(0, 0, 0, 1);
     ;
 }
 
 .info-img {
-    width: 249px;
-    height: 249px;
+    width: 788px;
+    height: 788px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 
 }
 .header1 {
-    height: 249px;
+    height: 788px;
     /* Keep this empty space at the top */
-    background-color: rgba(255, 0, 0, 0.7);
+    background-color: rgba(255, 0, 0, 0.699);
     ;
 }
 .info-logo{
@@ -49,23 +49,15 @@ body {
         background-image: url('background_landscape.png');
 
     }
-
-    .header {
-        height: 160px;
-        /* Keep this empty space at the top */
-        background-color: rgba(0, 0, 0, 0.7);
-        ;
-    }
-
     .header1 {
-        height: 320px;
+        height: 788px;
         /* Keep this empty space at the top */
-        background-color: rgba(255, 0, 0, 0.7);
+        background-color: rgba(255, 0, 0, 0.699);
         ;
     }
 
     .results-container {
-        height: 69%;
+        height: 1000PX;
         /* Adjusted height to fill space */
         overflow: hidden;
         /* Hide overflow */
@@ -73,8 +65,8 @@ body {
     }
 
     .info-img {
-        width: 350px;
-        height: 320px;
+        width: 788px;
+        height: 788px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -122,21 +114,15 @@ body {
         background-image: url('background_portrait.png');
    
     }
-
-    .header {
-        height: 140px;
-        /* Keep this empty space at the top */
-    }
-
     .header1 {
-        height: 249px;
+        height: 788px;
         /* Keep this empty space at the top */
-        background-color: rgba(255, 0, 0, 0.7);
+        background-color: rgba(255, 0, 0, 0.699);
         ;
     }
 
     .results-container {
-        height: 82%;
+        height: 1000PX;
         /* Adjusted height to fill space */
         overflow: hidden;
         /* Hide overflow */
@@ -146,8 +132,8 @@ body {
     }
 
     .info-img {
-        width: 404px;
-        height: 404px;
+        width: 788px;
+        height: 788px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -288,7 +274,7 @@ body {
 
     /* Ensure text doesn't spill over the rounded corners */
     background-color: 0px 12px 50px -5px rgba(255, 0, 0, 0.34);
-    padding: 60px 0px;
+    padding: 10px 0px;
 }
 
 .position {
