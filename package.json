@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "[my-framework] build --output public"
   },
   "keywords": [],
   "author": "",
@@ -13,4 +14,5 @@
     "express": "^4.21.0",
     "fs-extra": "^11.2.0"
   }
+
 }
