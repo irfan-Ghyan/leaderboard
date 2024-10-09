@@ -3,8 +3,9 @@ let scrollInterval; // Variable to hold the scroll interval
 let isScrolling = false; // Flag to track if scrolling is active
 const scrollDelay = 5000; // Delay for scrolling
 
+const apiBaseUrl = 'https://leaderboard-seven-beta.vercel.app'; 
 async function fetchResults() {
-    const response = await fetch('/api/leaderboard');
+    const response = await fetch(`${apiBaseUrl}/api/leaderboard`);
     results = await response.json();
     displayResults(results);
 }
@@ -31,7 +32,7 @@ async function fetchResults() {
 // Function to fetch data from the API
 async function fetchCarAndTrack() {
     try {
-        const response = await fetch('/api/settings');
+        const response = await fetch(`${apiBaseUrl}/api/settings`);
         
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
@@ -45,36 +46,6 @@ async function fetchCarAndTrack() {
     }
 }
 
-
-// function displayResults(results) {
-//     const resultsBody = document.getElementById('resultsBody');
-//     resultsBody.innerHTML = ''; // Clear existing results
-
-//     results.forEach((result, index) => {
-//         const row = document.createElement('tr');
-//         row.className = 'result-row'; // Add a class for styling
-//         const lapTime = formatLapTime(result.bestLap);
-
-//         // Determine the background color based on the position
-//         let nameBackgroundColor = '';
-//         if (index === 0) {
-//             nameBackgroundColor = 'gold';
-//         } else if (index === 1) {
-//             nameBackgroundColor = 'silver';
-//         } else if (index === 2) {
-//             nameBackgroundColor = '#cd7f32';
-//         }
-
-//         row.innerHTML = `
-//             <td class="position">${index + 1}</td>
-//             <td class="name" style="background-color: ${nameBackgroundColor};">${result.driverName}</td>
-//             <td class="time">${lapTime}</td>
-//         `;
-//         resultsBody.appendChild(row);
-//     });
-
-//     setTimeout(startAutoScroll, 5000); // Delay scroll start by 5 seconds
-// }
 
 // function displayResults(results) {
 //     const resultsBody = document.getElementById('resultsBody');
@@ -146,84 +117,6 @@ function displayResults(results) {
 
     setTimeout(startAutoScroll, 5000); // Delay scroll start by 5 seconds
 }
-
-
-
-// Utility function to format lap time
-// function formatLapTime(lapTime) {
-//     // Assuming lapTime is in milliseconds, format it to mm:ss.sss
-//     const minutes = Math.floor(lapTime / 60000);
-//     const seconds = ((lapTime % 60000) / 1000).toFixed(3);
-//     return `${minutes}:${seconds.padStart(6, '0')}`; // e.g., 1:45.678
-// }
-
-// Function to start auto-scrolling
-// function startAutoScroll() {
-//     if (isScrolling) return; // Prevent multiple intervals from starting
-//     isScrolling = true; // Set the scrolling flag
-//     const resultsBody = document.getElementById('resultsBody');
-//     const resultsContainer = document.querySelector('.results-container');
-//     let scrollPosition = 0;
-//     const maxScroll = resultsBody.scrollHeight - resultsContainer.clientHeight;
-
-//     scrollInterval = setInterval(() => {
-//         scrollPosition += 1; // Scroll down by one row
-//         resultsContainer.scrollTop = scrollPosition;
-
-//         // Check if reached the end of the scroll
-//         if (scrollPosition >= maxScroll) {
-//             clearInterval(scrollInterval); // Stop scrolling
-//             isScrolling = false; // Reset the scrolling flag
-
-//             // Wait for 5 seconds before restarting
-//             setTimeout(() => {
-//                 restartScroll(); // Call restart function
-//             }, scrollDelay); // 5 seconds delay before restarting
-//         }
-//     }, 50); // Adjust the speed of the scroll here
-// }
-
-// Function to restart the scroll
-// function restartScroll() {
-//     const resultsContainer = document.querySelector('.results-container');
-//     resultsContainer.scrollTop = 0; // Reset scroll position to top
-//     startAutoScroll(); // Start scrolling again
-// }
-
-// When the page loads, fetch the data and display it
-// window.onload = async function() {
-//     await fetchCarAndTrack(); // Fetch data and display it
-// };
-
-
-
-
-// function startAutoScroll() {
-//     if (isScrolling) return; // Prevent multiple intervals from starting
-//     isScrolling = true; // Set the scrolling flag
-//     const resultsBody = document.getElementById('resultsBody');
-//     const resultsContainer = document.querySelector('.results-container');
-//     let scrollPosition = 0;
-//     const maxScroll = resultsBody.scrollHeight - resultsContainer.clientHeight;
-
-//     scrollInterval = setInterval(() => {
-//         scrollPosition += 1; // Scroll down by one row
-//         resultsContainer.scrollTop = scrollPosition;
-
-//         // Check if reached the end of the scroll
-//         if (scrollPosition >= maxScroll) {
-//             clearInterval(scrollInterval); // Stop scrolling
-//             isScrolling = false; // Reset the scrolling flag
-
-//             // Wait for 5 seconds before restarting
-//             setTimeout(() => {
-//                 restartScroll(); // Call restart function
-//             }, scrollDelay); // 5 seconds delay before restarting
-//         }
-//     }, 50); // Adjust the speed of the scroll here
-// }
-
-
 
 
 // Function to populate results into the DOM
