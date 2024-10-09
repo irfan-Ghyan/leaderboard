@@ -18,7 +18,6 @@ let settings = {
   maxResults: 20,        // Maximum number of results to show (default value)
   carTitle: '',          // New field for car title
   trackTitle: ''         // New field for track title
-
 };
 
 // Middleware to serve the static frontend files
@@ -47,7 +46,7 @@ loadSettings();
 // Endpoint to get leaderboard data
 app.get('/api/leaderboard', (req, res) => {
   // Check if a maxResults query parameter is provided
-  res.setHeader('Access-Control-Allow-Origin', '*');
+  
   const requestedMaxResults = parseInt(req.query.maxResults, 10);
   if (!isNaN(requestedMaxResults) && requestedMaxResults > 0) {
     settings.maxResults = requestedMaxResults; // Update maxResults if valid
@@ -76,7 +75,6 @@ app.get('/api/leaderboard', (req, res) => {
 
 // Endpoint to get current settings
 app.get('/api/settings', (req, res) => {
-  res.setHeader('Access-Control-Allow-Origin', '*');
   res.json(settings); // Send the settings as JSON
 });
 
