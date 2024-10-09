@@ -2,12 +2,16 @@
 const express = require('express');
 const fs = require('fs-extra');
 const path = require('path');
+const cors = require('cors'); 
 
 const app = express();
 const PORT = 3000;
 const DATA_DIR = "D:\\Leaderboard\\results"; 
 
 let leaderboardData = [];
+
+// CORS middleware
+app.use(cors()); // Enable CORS for all routes
 
 // Settings loaded from settings.json
 let settings = {
@@ -159,3 +163,4 @@ app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
   readJSONFiles(); // Initial read
 });
+
