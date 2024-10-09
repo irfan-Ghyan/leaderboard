@@ -5,6 +5,7 @@ const scrollDelay = 5000; // Delay for scrolling
 
 async function fetchResults() {
     const response = await fetch('http://localhost:3000/api/leaderboard');
+    res.setHeader('Access-Control-Allow-Origin', '*');
     results = await response.json();
     displayResults(results);
     console.log(results)
@@ -33,6 +34,7 @@ async function fetchResults() {
 async function fetchCarAndTrack() {
     try {
         const response = await fetch('http://localhost:3000/api/settings');
+        res.setHeader('Access-Control-Allow-Origin', '*');
         
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);

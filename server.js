@@ -160,3 +160,34 @@ app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
   readJSONFiles(); // Initial read
 });
+
+
+const express = require('express');
+const cors = require('cors');
+
+
+// Enable CORS for all routes
+app.use(cors());
+
+// Or if you want to specify certain origins:
+// app.use(cors({ origin: 'http://example.com' })); // Replace with your frontend domain
+
+app.get('/api/settings', (req, res) => {
+    res.json({
+        trackTitle: 'Awesome Track',
+        carTitle: 'Super Car'
+    });
+});
+
+app.get('/api/leaderboard', (req, res) => {
+    res.json([
+        { driverName: 'John Doe', bestLap: 124000 },
+        { driverName: 'Jane Smith', bestLap: 126000 },
+        { driverName: 'Sammy Racer', bestLap: 128000 }
+    ]);
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+});
