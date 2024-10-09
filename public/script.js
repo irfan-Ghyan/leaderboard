@@ -56,6 +56,59 @@ async function fetchCarAndTrack() {
 //     setTimeout(startAutoScroll, 5000); // Delay scroll start by 5 seconds
 // }
 
+// function displayResults(results) {
+//     const resultsBody = document.getElementById('resultsBody');
+//     resultsBody.innerHTML = ''; // Clear existing results
+
+//     results.forEach((result, index) => {
+//         const row = document.createElement('tr');
+//         row.className = 'result-row'; // Add a class for styling
+//         const lapTime = formatLapTime(result.bestLap);
+
+//         // Define background colors for specific positions
+//         let nameBackgroundColor = '';
+//         if (index === 0) {
+//             nameBackgroundColor = 'gold';
+//         } else if (index === 1) {
+//             nameBackgroundColor = 'silver';
+//         } else if (index === 2) {
+//             nameBackgroundColor = '#cd7f32';
+//         } else {
+//             // For other rows, alternate between two colors or generate a dynamic color
+//             nameBackgroundColor = index % 2 === 0 ? '#f2f2f2' : '#e6e6e6'; // Alternate colors
+//         }
+
+//         // Insert the row with dynamic background color
+//         row.innerHTML = `
+//             <td class="position" style="background-color: ${nameBackgroundColor};">${index + 1}</td>
+//             <td class="name" style="background-color: ${nameBackgroundColor};">${result.driverName}</td>
+//             <td class="time" style="background-color: ${nameBackgroundColor};">${lapTime}</td>
+//         `;
+//         resultsBody.appendChild(row);
+//     });
+
+//     setTimeout(startAutoScroll, 5000); // Delay scroll start by 5 seconds
+// }
+
+
+// Function to fetch data from the API
+async function fetchCarAndTrack() {
+    try {
+        const response = await fetch(`${apiBaseUrl}/api/leaderboard`);
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        displayResults(data); // Call function to display the fetched results
+        return data;
+    } catch (error) {
+        console.error('Error fetching car and track data:', error);
+    }
+}
+
+// Function to display the results in the DOM
 function displayResults(results) {
     const resultsBody = document.getElementById('resultsBody');
     resultsBody.innerHTML = ''; // Clear existing results
@@ -72,9 +125,9 @@ function displayResults(results) {
         } else if (index === 1) {
             nameBackgroundColor = 'silver';
         } else if (index === 2) {
-            nameBackgroundColor = '#cd7f32';
+            nameBackgroundColor = '#cd7f32'; // Bronze
         } else {
-            // For other rows, alternate between two colors or generate a dynamic color
+            // For other rows, alternate between two colors
             nameBackgroundColor = index % 2 === 0 ? '#f2f2f2' : '#e6e6e6'; // Alternate colors
         }
 
@@ -90,7 +143,15 @@ function displayResults(results) {
     setTimeout(startAutoScroll, 5000); // Delay scroll start by 5 seconds
 }
 
+// Utility function to format lap time
+function formatLapTime(lapTime) {
+    // Assuming lapTime is in milliseconds, format it to mm:ss.sss
+    const minutes = Math.floor(lapTime / 60000);
+    const seconds = ((lapTime % 60000) / 1000).toFixed(3);
+    return `${minutes}:${seconds.padStart(6, '0')}`; // e.g., 1:45.678
+}
 
+// Function to start auto-scrolling
 function startAutoScroll() {
     if (isScrolling) return; // Prevent multiple intervals from starting
     isScrolling = true; // Set the scrolling flag
@@ -115,6 +176,128 @@ function startAutoScroll() {
         }
     }, 50); // Adjust the speed of the scroll here
 }
+
+// Function to restart the scroll
+function restartScroll() {
+    const resultsContainer = document.querySelector('.results-container');
+    resultsContainer.scrollTop = 0; // Reset scroll position to top
+    startAutoScroll(); // Start scrolling again
+}
+
+// When the page loads, fetch the data and display it
+window.onload = async function() {
+    await fetchCarAndTrack(); // Fetch data and display it
+};
+
+
+
+
+// function startAutoScroll() {
+//     if (isScrolling) return; // Prevent multiple intervals from starting
+//     isScrolling = true; // Set the scrolling flag
+//     const resultsBody = document.getElementById('resultsBody');
+//     const resultsContainer = document.querySelector('.results-container');
+//     let scrollPosition = 0;
+//     const maxScroll = resultsBody.scrollHeight - resultsContainer.clientHeight;
+
+//     scrollInterval = setInterval(() => {
+//         scrollPosition += 1; // Scroll down by one row
+//         resultsContainer.scrollTop = scrollPosition;
+
+//         // Check if reached the end of the scroll
+//         if (scrollPosition >= maxScroll) {
+//             clearInterval(scrollInterval); // Stop scrolling
+//             isScrolling = false; // Reset the scrolling flag
+
+//             // Wait for 5 seconds before restarting
+//             setTimeout(() => {
+//                 restartScroll(); // Call restart function
+//             }, scrollDelay); // 5 seconds delay before restarting
+//         }
+//     }, 50); // Adjust the speed of the scroll here
+// }
+
+
+
+// API URL where you fetch the leaderboard data
+const apiBaseUrl = 'https://leaderboard-seven-beta.vercel.app'; // Make sure this is the correct API URL
+
+// Function to fetch data from the API
+async function fetchCarAndTrack() {
+    try {
+        const response = await fetch(`${apiBaseUrl}/api/leaderboard`);
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+
+        const data = await response.json();
+        populateResults(data); // Call function to populate results
+        return data;
+    } catch (error) {
+        console.error('Error fetching car and track data:', error);
+    }
+}
+
+// Function to populate results into the DOM
+function populateResults(data) {
+    const resultsBody = document.getElementById('resultsBody');
+    resultsBody.innerHTML = ''; // Clear any existing content
+
+    // Loop through each item and create a new row
+    data.forEach((item) => {
+        const row = document.createElement('div');
+        row.classList.add('result-row');
+        row.innerHTML = `
+            <div>${item.driverName}</div>
+            <div>${item.carModel}</div>
+            <div>${item.trackName}</div>
+            <div>${item.bestLap}</div>
+        `;
+        resultsBody.appendChild(row);
+    });
+}
+
+// Function to start auto-scrolling
+function startAutoScroll() {
+    if (isScrolling) return; // Prevent multiple intervals from starting
+    isScrolling = true; // Set the scrolling flag
+    const resultsBody = document.getElementById('resultsBody');
+    const resultsContainer = document.querySelector('.results-container');
+    let scrollPosition = 0;
+    const maxScroll = resultsBody.scrollHeight - resultsContainer.clientHeight;
+
+    scrollInterval = setInterval(() => {
+        scrollPosition += 1; // Scroll down by one row
+        resultsContainer.scrollTop = scrollPosition;
+
+        // Check if reached the end of the scroll
+        if (scrollPosition >= maxScroll) {
+            clearInterval(scrollInterval); // Stop scrolling
+            isScrolling = false; // Reset the scrolling flag
+
+            // Wait for 5 seconds before restarting
+            setTimeout(() => {
+                restartScroll(); // Call restart function
+            }, scrollDelay); // 5 seconds delay before restarting
+        }
+    }, 50); // Adjust the speed of the scroll here
+}
+
+// Function to restart the scroll
+function restartScroll() {
+    const resultsContainer = document.querySelector('.results-container');
+    resultsContainer.scrollTop = 0; // Reset scroll position to top
+    startAutoScroll(); // Start scrolling again
+}
+
+// When the page loads, fetch the data and start scrolling
+window.onload = async function() {
+    await fetchCarAndTrack(); // Fetch data before scrolling
+    startAutoScroll(); // Start the scroll after data is populated
+};
+
+
 
 function restartScroll() {
     const resultsContainer = document.querySelector('.results-container');
