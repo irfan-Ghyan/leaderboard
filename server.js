@@ -62,7 +62,7 @@ app.get('/api/leaderboard', (req, res) => {
   
   const filteredData = leaderboardData.filter(entry => {
     // Convert the session date from 'YYYY_M_D_HH_MM' to 'YYYYMMDDHHMM' for comparison
-    const entryDate = entry.date.replace(/_/g, '').slice(0, 10) + entry.date.split('_')[3] + '00'; // Convert to 'YYYYMMDDHHMM'
+    const entryDate = entry.date.replace(/_/g, '').slice(0, 10) + entry.date.split('_')[3] + '00'; 
     
     // Filter conditions
     const dateCondition = entryDate >= settings.startDateFilter && entryDate <= settings.endDateFilter;
