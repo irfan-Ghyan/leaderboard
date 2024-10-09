@@ -12,12 +12,8 @@ let leaderboardData = [];
 
 // CORS middleware
 app.use(cors({
-  origin: 'http://localhost:3000', 
-  methods: ['GET', 'POST', 'OPTIONS'], 
-  credentials: true 
+  origin: '*', // Allow all origins for testing
 }));
-
-app.options('*', cors());
 
 
 // Settings loaded from settings.json
