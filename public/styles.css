@@ -50,7 +50,7 @@ body {
         padding-left: 10%;
         /* 10% empty space on the left */
         padding-right: 10%;
-        /* 10% empty space on the right */
+
     }
 
     .header {
@@ -85,6 +85,7 @@ body {
     }
     .info-logo{
         width: 200px;
+        width: 300px;
         height: 100px;
     }
     .info-row {
@@ -123,10 +124,7 @@ body {
 @media screen and (max-width: 1080px) and (min-height: 1920px) {
     .container {
         background-image: url('background_portrait.png');
-        padding-left: 3%;
-        /* 3% empty space on the left */
-        padding-right: 3%;
-        /* 3% empty space on the right */
+   
     }
 
     .header {
@@ -148,6 +146,7 @@ body {
         /* Hide overflow */
         width: 100%;
         margin-top: 20;
+        margin-top: 20px;
         /* Ensure no additional space above the table */
     }
 
@@ -231,11 +230,11 @@ body {
     /* Remove background color */
     padding: 10px 20px;
     /* Add padding for spacing */
-    border-radius: 10px;
     /* Rounded corners */
     text-align: center;
     /* Center the text */
     border: 2px solid rgba(255, 255, 255, 0.3);
+   
     /* Light border for subtle separation */
     flex: 1;
     /* Allow the value div to grow */
@@ -247,6 +246,7 @@ body {
     /* Hide overflow text */
     text-overflow: ellipsis;
     /* Add ellipsis for overflow text */
+    font-size: 40px;
 }
 
 .separator {
@@ -280,6 +280,7 @@ body {
 
 .result-table td, .result-table th {
     padding: 8px;
+    padding: 20px;
 }
 
 .result-table tr:nth-child(even){background-color: #f2f2f2;}
@@ -294,7 +295,7 @@ body {
 
     /* Ensure text doesn't spill over the rounded corners */
     background-color: 0px 12px 50px -5px rgba(255, 0, 0, 0.34);
-    padding: 25px 0px;
+    padding: 60px 0px;
 }
 
 .position {
@@ -304,6 +305,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 35px;
 }
 
 .name {
@@ -314,6 +316,7 @@ body {
     align-items: center;
     padding-left: 20px;
     text-transform: uppercase;
+    font-size: 35px;
 }
 
 .time {
@@ -323,6 +326,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 35px;
 }
 
 
