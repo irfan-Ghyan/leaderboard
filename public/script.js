@@ -3,9 +3,8 @@ let scrollInterval; // Variable to hold the scroll interval
 let isScrolling = false; // Flag to track if scrolling is active
 const scrollDelay = 5000; // Delay for scrolling
 
-const apiBaseUrl = 'https://leaderboard-seven-beta.vercel.app'; 
 async function fetchResults() {
-    const response = await fetch(`${apiBaseUrl}/api/leaderboard`);
+    const response = await fetch('/api/leaderboard');
     results = await response.json();
     displayResults(results);
 }
@@ -32,7 +31,7 @@ async function fetchResults() {
 // Function to fetch data from the API
 async function fetchCarAndTrack() {
     try {
-        const response = await fetch(`${apiBaseUrl}/api/settings`);
+        const response = await fetch('/api/settings');
         
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
