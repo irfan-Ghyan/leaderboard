@@ -11,9 +11,16 @@ const DATA_DIR = "D:\\Leaderboard\\results";
 let leaderboardData = [];
 
 // CORS middleware
+// CORS middleware
 app.use(cors({
-  origin: 'http://localhost:3000/' 
-})); // Enable CORS for all routes
+  origin: 'http://localhost:3000', // No trailing slash
+  methods: ['GET', 'POST', 'OPTIONS'], // Add allowed methods if necessary
+  credentials: true // If you need to pass cookies or authorization headers
+}));
+
+// Preflight handling
+app.options('*', cors());
+// Enable CORS for all routes
 
 // Settings loaded from settings.json
 let settings = {
