@@ -47,9 +47,6 @@ body {
 @media screen and (min-width: 1920px) and (max-height: 1080px) {
     .container {
         background-image: url('background_landscape.png');
-        padding-left: 10%;
-        /* 10% empty space on the left */
-        padding-right: 10%;
 
     }
 
@@ -84,7 +81,6 @@ body {
 
     }
     .info-logo{
-        width: 200px;
         width: 300px;
         height: 100px;
     }
@@ -145,7 +141,6 @@ body {
         overflow: hidden;
         /* Hide overflow */
         width: 100%;
-        margin-top: 20;
         margin-top: 20px;
         /* Ensure no additional space above the table */
     }
@@ -233,7 +228,6 @@ body {
     /* Rounded corners */
     text-align: center;
     /* Center the text */
-    border: 2px solid rgba(255, 255, 255, 0.3);
    
     /* Light border for subtle separation */
     flex: 1;
@@ -279,7 +273,6 @@ body {
 }
 
 .result-table td, .result-table th {
-    padding: 8px;
     padding: 20px;
 }
 
