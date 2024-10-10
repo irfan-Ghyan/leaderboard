@@ -203,7 +203,7 @@ body {
 }
 
 .logoimage{
-    width: 800px;
+    width: 445px;
 }
 
 .value {
@@ -218,7 +218,7 @@ body {
     /* Light border for subtle separation */
     flex: 1;
     /* Allow the value div to grow */
-    min-width: 350px;
+
     /* Set a minimum width for better layout */
     white-space: nowrap;
     /* Prevent text from wrapping */
