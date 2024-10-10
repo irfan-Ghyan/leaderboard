@@ -4,7 +4,7 @@ let isScrolling = false; // Flag to track if scrolling is active
 const scrollDelay = 5000; // Delay for scrolling
 
 async function fetchResults() {
-    const response = await fetch('http://localhost:3000/api/leaderboard');
+    const response = await fetch('/api/leaderboard');
     results = await response.json();
     displayResults(results);
     console.log(results)
@@ -32,7 +32,7 @@ async function fetchResults() {
 // Function to fetch data from the API
 async function fetchCarAndTrack() {
     try {
-        const response = await fetch('http://localhost:3000/api/settings');
+        const response = await fetch('/api/settings');
 
         
         if (!response.ok) {
@@ -117,7 +117,7 @@ function displayResults(results) {
             nameBackgroundColor = '#cd7f32'; // Bronze
         } else {
             // For other rows, alternate between two colors
-            nameBackgroundColor = index % 2 === 0 ? '#f2f2f2' : '#e6e6e6'; // Alternate colors
+            nameBackgroundColor = index % 2 === 0 ? '#303030' : '#0f0f0f'; // Alternate colors
         }
 
         // Insert the row with dynamic background color
