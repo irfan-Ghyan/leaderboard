@@ -18,29 +18,29 @@ body {
 }
 
 .header {
-    height: 200PX;
+    height: 80PX;
     /* Keep this empty space at the top */
     background-color: #b60000 ;
     ;
 }
 
 .info-img {
-    width: 788px;
-    height: 788px;
+    width: 355px;
+    height: 355px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 
 }
 .header1 {
-    height: 788px;
+    height: 355px;
     /* Keep this empty space at the top */
     background-color: #e3e3e3;
     ;
 }
 .info-logo{
     width: 245px;
-    height: 75px;
+    height: 60px;
 }
 
 /* Hardcoded for landscape (1920x1080) */
@@ -50,7 +50,7 @@ body {
 
     }
     .header1 {
-        height: 788px;
+        height: 355px;
         /* Keep this empty space at the top */
         background-color: #e3e3e3;
         ;
@@ -65,16 +65,16 @@ body {
     }
 
     .info-img {
-        width: 788px;
-        height: 788px;
+        width: 355px;
+        height: 355px;
         display: block;
         margin-left: auto;
         margin-right: auto;
 
     }
     .info-logo{
-        width: 300px;
-        height: 100px;
+        width: 245px;
+        height: 60px;
     }
     .info-row {
         display: flex;
@@ -83,12 +83,11 @@ body {
         /* Center content */
         align-items: center;
         /* Center vertically */
-        width: 96%;
+        width: 100%;
         /* Make the row wider */
     
         color: rgb(250, 250, 250);
         /* White text color */
-        padding: 10px;
         /* Padding for content */
         border-radius: 10px;
         /* Rounded corners */
@@ -115,7 +114,7 @@ body {
    
     }
     .header1 {
-        height: 788px;
+        height: 355px;
         /* Keep this empty space at the top */
         background-color: #e3e3e3;
         ;
@@ -132,8 +131,8 @@ body {
     }
 
     .info-img {
-        width: 788px;
-        height: 788px;
+        width: 355px;
+        height: 355px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -150,9 +149,9 @@ body {
         /* Center content */
         align-items: center;
         /* Center vertically */
-        width: 98%;
+        width: 100%;
         /* Make the row wider */
-    
+
         color: rgb(250, 250, 250);
         /* White text color */
         /* Rounded corners */
@@ -180,12 +179,11 @@ body {
     /* Center content */
     align-items: center;
     /* Center vertically */
-    width: 98%;
+    width: 100%;
     /* Make the row wider */
 
     color: rgb(250, 250, 250);
     /* White text color */
-    padding: 10px;
     /* Padding for content */
     border-radius: 10px;
     /* Rounded corners */
@@ -276,8 +274,8 @@ body {
     /* Add rounded corners to individual columns */
 
     /* Ensure text doesn't spill over the rounded corners */
-    background-color: 0px 12px 50px -5px rgba(255, 0, 0, 0.34);
-    padding: 20px 0px;
+    /* background-color: 0px 12px 50px -5px rgba(255, 0, 0, 0.34); */
+    padding: 16px 0px;
 }
 
 .position {
