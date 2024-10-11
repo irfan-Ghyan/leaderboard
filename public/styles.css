@@ -15,25 +15,26 @@ body {
     background-size: cover;
     background-position: center;
 
+
 }
 
 .header {
-    height: 80PX;
+    height: 100PX;
     /* Keep this empty space at the top */
     background-color: #b60000 ;
     ;
 }
 
 .info-img {
-    width: 355px;
-    height: 355px;
+    width: 555px;
+    height: 555px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 
 }
 .header1 {
-    height: 355px;
+    height: 555px;
     /* Keep this empty space at the top */
     background-color: #e3e3e3;
     ;
@@ -50,14 +51,14 @@ body {
 
     }
     .header1 {
-        height: 355px;
+        height: 500px;
         /* Keep this empty space at the top */
         background-color: #e3e3e3;
         ;
     }
 
     .results-container {
-        height: 1000PX;
+
         /* Adjusted height to fill space */
         overflow: hidden;
         /* Hide overflow */
@@ -65,8 +66,8 @@ body {
     }
 
     .info-img {
-        width: 355px;
-        height: 355px;
+        width: 500px;
+        height: 500px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -83,11 +84,12 @@ body {
         /* Center content */
         align-items: center;
         /* Center vertically */
-        width: 100%;
+        width: 98%;
         /* Make the row wider */
     
         color: rgb(250, 250, 250);
         /* White text color */
+        padding:10px 0px;
         /* Padding for content */
         border-radius: 10px;
         /* Rounded corners */
@@ -105,6 +107,17 @@ body {
         position: relative;
     
     }
+    .position,
+.name,
+.time {
+   
+    /* Add rounded corners to individual columns */
+
+    /* Ensure text doesn't spill over the rounded corners */
+    /* background-color: 0px 12px 50px -5px rgba(255, 0, 0, 0.34); */
+    padding: 30px 0px;
+}
+    
 }
 
 /* Hardcoded for portrait (1080x1920) */
@@ -114,25 +127,24 @@ body {
    
     }
     .header1 {
-        height: 355px;
+        height: 555px;
         /* Keep this empty space at the top */
         background-color: #e3e3e3;
         ;
     }
 
     .results-container {
-        height: 1000PX;
+      
         /* Adjusted height to fill space */
         overflow: hidden;
         /* Hide overflow */
         width: 100%;
-        margin-top: 20px;
         /* Ensure no additional space above the table */
     }
 
     .info-img {
-        width: 355px;
-        height: 355px;
+        width: 555px;
+        height: 555px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -149,11 +161,12 @@ body {
         /* Center content */
         align-items: center;
         /* Center vertically */
-        width: 100%;
+        width: 98%;
         /* Make the row wider */
 
         color: rgb(250, 250, 250);
         /* White text color */
+        padding: 10px 0px;
         /* Rounded corners */
         margin: 0 auto 0 auto;
         /* Center the row with space below it */
@@ -168,6 +181,16 @@ body {
         position: relative;
     
     }
+    .position,
+.name,
+.time {
+   
+    /* Add rounded corners to individual columns */
+
+    /* Ensure text doesn't spill over the rounded corners */
+    /* background-color: 0px 12px 50px -5px rgba(255, 0, 0, 0.34); */
+    padding: 40px 0px;
+}
 
 }
 
@@ -179,11 +202,12 @@ body {
     /* Center content */
     align-items: center;
     /* Center vertically */
-    width: 100%;
+    width: 98%;
     /* Make the row wider */
 
     color: rgb(250, 250, 250);
     /* White text color */
+    padding:10px 0px;
     /* Padding for content */
     border-radius: 10px;
     /* Rounded corners */
@@ -267,16 +291,7 @@ body {
 .result-table tr:hover {background-color: #ddd;}
 
 
-.position,
-.name,
-.time {
-   
-    /* Add rounded corners to individual columns */
 
-    /* Ensure text doesn't spill over the rounded corners */
-    /* background-color: 0px 12px 50px -5px rgba(255, 0, 0, 0.34); */
-    padding: 16px 0px;
-}
 
 .position {
  
