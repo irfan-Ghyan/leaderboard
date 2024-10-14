@@ -130,7 +130,7 @@ body {
         height: 555px;
         /* Keep this empty space at the top */
         background-color: #e3e3e3;
-        ;
+        
     }
 
     .results-container {
@@ -139,7 +139,7 @@ body {
         overflow: hidden;
         /* Hide overflow */
         width: 100%;
-        /* Ensure no additional space above the table */
+       
     }
 
     .info-img {
@@ -307,7 +307,7 @@ body {
 .name {
    
     color: rgb(255, 255, 255);
-    flex: 3.5;
+    flex: 2.8;
     display: flex;
     align-items: center;
     padding-left: 20px;
