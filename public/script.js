@@ -2,7 +2,10 @@ let results = []; // Array to hold the results
 let scrollInterval; // Variable to hold the scroll interval
 let isScrolling = false; // Flag to track if scrolling is active
 const scrollDelay = 5000; // Delay for scrolling
+const refreshMilliseconds = 1000;
+const scrollSpeed = 60;
 
+// Function to fetch the leaderboard results
 async function fetchResults() {
     const response = await fetch('/api/leaderboard');
     results = await response.json();
@@ -10,7 +13,7 @@ async function fetchResults() {
     console.log(results);
 }
 
-// Function to fetch data from the API
+// Function to fetch car and track data from the API
 async function fetchCarAndTrack() {
     try {
         const response = await fetch('/api/settings');
@@ -28,8 +31,6 @@ async function fetchCarAndTrack() {
 
     } catch (error) {
         console.error('Error fetching car and track data:', error);
-
-        // Show error messages in the HTML
         document.getElementById('trackName').textContent = 'Error loading track';
         document.getElementById('carName').textContent = 'Error loading car';
     }
@@ -102,23 +103,33 @@ function startAutoScroll() {
             clearInterval(scrollInterval); // Stop scrolling
             isScrolling = false; // Reset the scrolling flag
 
-            // Wait for 5 seconds before restarting
+            // Wait for 5 seconds at the end of the scroll
             setTimeout(() => {
-                restartScroll(); // Call restart function
-            }, scrollDelay); // 5 seconds delay before restarting
+                // Reset scroll to the top
+                resultsContainer.scrollTop = 0;
+
+                // Wait another 5 seconds at the top before restarting scroll
+                setTimeout(() => {
+                    isScrolling = true; // Set the scrolling flag to prevent multiple calls
+                    startAutoScroll(); // Start scrolling again
+                }, scrollDelay); // 5 seconds delay at the top
+            }, scrollDelay); // 5 seconds delay at the end
         }
-    }, 50); // Adjust the speed of the scroll here
+    }, scrollSpeed); // Adjust the speed of the scroll here
 }
 
-// Function to restart the scroll
-function restartScroll() {
-    const resultsContainer = document.querySelector('.results-container');
-    resultsContainer.scrollTop = 0; // Reset scroll position to top
-    startAutoScroll(); // Start scrolling again
+// Function to refresh data every 10 seconds
+function startDataRefresh() {
+    setInterval(async () => {
+        await fetchCarAndTrack(); // Fetch car and track data
+        await fetchResults(); // Fetch leaderboard results
+    }, refreshMilliseconds);
 }
 
 // When the page loads, fetch the data and start scrolling
 window.onload = async function() {
     await fetchCarAndTrack(); // Fetch data before scrolling
-    fetchResults(); // Fetch results after fetching settings
+    await fetchResults(); // Fetch results after fetching settings
+    startDataRefresh(); // Start the data refresh process every 10 seconds
+    setTimeout(startAutoScroll, scrollDelay); // Delay scroll start by 5 seconds on initial load
 };

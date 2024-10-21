@@ -103,6 +103,7 @@ app.post('/api/save-settings', (req, res) => {
 });
 
 // Function to read JSON files and populate leaderboardData
+// Function to read JSON files and populate leaderboardData
 async function readJSONFiles() {
   try {
     const files = await fs.readdir(DATA_DIR);
@@ -152,14 +153,14 @@ async function readJSONFiles() {
 
       // Process the Results section
       results.forEach((entry) => {
-        const driverName = entry.DriverName.trim();
+        const driverName = entry.DriverName.trim().toLowerCase();  // Convert to lowercase for consistency
         const bestLapTime = entry.BestLap === 999999999 ? '-' : Number(entry.BestLap);
         const totalTime = Number(entry.TotalTime);
 
         // Store driver details
         if (!driverMap[driverName]) {
           driverMap[driverName] = {
-            driverName,
+            driverName: entry.DriverName.trim(), // Store original name for display
             carModel: entry.CarModel,
             bestLap: bestLapTime,
             totalTime: totalTime,
@@ -167,13 +168,18 @@ async function readJSONFiles() {
             date: sessionDate,
             completedLaps: 0 // Keep track of completed laps
           };
+        } else {
+          // Update the best lap time if a better one is found
+          if (bestLapTime !== '-' && (driverMap[driverName].bestLap === '-' || bestLapTime < driverMap[driverName].bestLap)) {
+            driverMap[driverName].bestLap = bestLapTime;
+          }
         }
       });
 
       // Process the Laps section
       const laps = content.Laps || []; // Focus on the Laps section
       laps.forEach((lap) => {
-        const driverName = lap.DriverName.trim(); // Ensure we get the driver name from laps
+        const driverName = lap.DriverName.trim().toLowerCase(); // Ensure we get the driver name from laps
         if (driverMap[driverName]) {
           completedDrivers.add(driverName); // Add driver to the set of completed drivers
           driverMap[driverName].completedLaps += 1; // Update the driver's completed laps count
@@ -181,8 +187,8 @@ async function readJSONFiles() {
       });
     }
 
-    // Filter to only include drivers who completed at least one lap and were in the Results
-    leaderboardData = Object.values(driverMap).filter(driver => completedDrivers.has(driver.driverName));
+    // Filter to only include drivers who completed at least one lap or appeared in the Results
+    leaderboardData = Object.values(driverMap).filter(driver => completedDrivers.has(driver.driverName.toLowerCase()));
 
     // Sort the leaderboard with valid lap times first, then entries with a '-' lap time
     leaderboardData.sort((a, b) => {
@@ -200,8 +206,11 @@ async function readJSONFiles() {
 
 
 
+
 // Check for new JSON files every 10 seconds
 setInterval(readJSONFiles, 10000);
+
+setInterval(loadSettings, 10000);
 
 // Start the server
 app.listen(PORT, () => {

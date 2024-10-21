@@ -1,13 +1,13 @@
 {
   "carTitle": "Vir",
   "trackTitle": "COTA",
-  "startDateFilter": "2024-10-17T19:00",
-  "endDateFilter": "2024-10-17T23:00",
+  "startDateFilter": "2023-09-17T19:00",
+  "endDateFilter": "2024-10-17T19:30",
   "trackFilters": [
     "ALL"
   ],
   "carFilters": [
     "ALL"
   ],
-  "maxResults": 25
+  "maxResults": 15
 }
