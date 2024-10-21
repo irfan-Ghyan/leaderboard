@@ -1,7 +1,8 @@
 async function fetchSettings() {
     try {
-        // Fetch the settings from the server or local file
-        const response = await fetch('settings.json');
+        // Fetch the settings from the server
+        const response = await fetch('/settings'); // Updated to match your server endpoint
+        if (!response.ok) throw new Error('Network response was not ok');
         const settings = await response.json();
 
         // Populate the form fields with the fetched data
@@ -31,12 +32,12 @@ document.getElementById('settingsForm').addEventListener('submit', async functio
         endDateFilter: document.getElementById('endDateFilter').value,
         trackFilters: document.getElementById('trackFilters').value.split(',').map(item => item.trim()),
         carFilters: document.getElementById('carFilters').value.split(',').map(item => item.trim()),
-        maxResults: document.getElementById('maxResults').value,
+        maxResults: parseInt(document.getElementById('maxResults').value, 10), // Parse to integer
     };
 
     try {
-        const response = await fetch('/api/save-settings', {
-            method: 'POST', // Adjust this if your server requires a different method
+        const response = await fetch('/save-settings', { // Match the endpoint to your server
+            method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -46,7 +47,8 @@ document.getElementById('settingsForm').addEventListener('submit', async functio
         if (response.ok) {
             alert('Settings saved successfully!');
         } else {
-            alert('Failed to save settings.');
+            const errorMessage = await response.text(); // Get the error message from the server
+            alert(`Failed to save settings: ${errorMessage}`);
         }
     } catch (error) {
         console.error('Error saving settings:', error);

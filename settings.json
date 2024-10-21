@@ -1,9 +1,13 @@
 {
-  "carTitle": "VGP",
+  "carTitle": "Vir",
   "trackTitle": "COTA",
   "startDateFilter": "2024-10-17T19:00",
   "endDateFilter": "2024-10-17T23:00",
-  "trackFilters": ["ALL"],
-  "carFilters": ["ALL"],
-  "maxResults": 20
+  "trackFilters": [
+    "ALL"
+  ],
+  "carFilters": [
+    "ALL"
+  ],
+  "maxResults": 25
 }

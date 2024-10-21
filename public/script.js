@@ -7,34 +7,14 @@ async function fetchResults() {
     const response = await fetch('/api/leaderboard');
     results = await response.json();
     displayResults(results);
-    console.log(results)
+    console.log(results);
 }
-
-// async function fetchCarAndTrack() {
-//     try {
-//         const response = await fetch('/api/settings'); // Adjust this endpoint as needed
-//         console.log(response);
-//         const data = await response.json();
-        
-//         console.log("Fetched settings:", data); // Log the response data
-
-//         // Update the track and car information
-//         document.getElementById('trackName').textContent = data.trackTitle || 'Track not available';
-//         document.getElementById('carName').textContent = data.carTitle || 'Car not available';
-//     } catch (error) {
-//         console.error("Error fetching car and track data:", error);
-//         document.getElementById('trackName').textContent = 'Error loading track';
-//         document.getElementById('carName').textContent = 'Error loading car';
-//     }
-// }
-
 
 // Function to fetch data from the API
 async function fetchCarAndTrack() {
     try {
         const response = await fetch('/api/settings');
 
-        
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }
@@ -45,7 +25,7 @@ async function fetchCarAndTrack() {
         // Update the track name and car name in the HTML
         document.getElementById('trackName').textContent = data.trackTitle || 'Track not available';
         document.getElementById('carName').textContent = data.carTitle || 'Car not available';
-        
+
     } catch (error) {
         console.error('Error fetching car and track data:', error);
 
@@ -55,47 +35,18 @@ async function fetchCarAndTrack() {
     }
 }
 
-window.onload = async () => {
-    await fetchCarAndTrack(); // Fetch track and car data on page load
-};
+// Function to format lap time for display
+function formatLapTime(lapTime) {
+    if (lapTime === '-' || lapTime === 999999999) {
+        return '-';
+    }
 
-
-
-// function displayResults(results) {
-//     const resultsBody = document.getElementById('resultsBody');
-//     resultsBody.innerHTML = ''; // Clear existing results
-
-//     results.forEach((result, index) => {
-//         const row = document.createElement('tr');
-//         row.className = 'result-row'; // Add a class for styling
-//         const lapTime = formatLapTime(result.bestLap);
-
-//         // Define background colors for specific positions
-//         let nameBackgroundColor = '';
-//         if (index === 0) {
-//             nameBackgroundColor = 'gold';
-//         } else if (index === 1) {
-//             nameBackgroundColor = 'silver';
-//         } else if (index === 2) {
-//             nameBackgroundColor = '#cd7f32';
-//         } else {
-//             // For other rows, alternate between two colors or generate a dynamic color
-//             nameBackgroundColor = index % 2 === 0 ? '#f2f2f2' : '#e6e6e6'; // Alternate colors
-//         }
-
-//         // Insert the row with dynamic background color
-//         row.innerHTML = `
-//             <td class="position" style="background-color: ${nameBackgroundColor};">${index + 1}</td>
-//             <td class="name" style="background-color: ${nameBackgroundColor};">${result.driverName}</td>
-//             <td class="time" style="background-color: ${nameBackgroundColor};">${lapTime}</td>
-//         `;
-//         resultsBody.appendChild(row);
-//     });
-
-//     setTimeout(startAutoScroll, 5000); // Delay scroll start by 5 seconds
-// }
-
-
+    const totalSeconds = Math.floor(lapTime / 1000);
+    const minutes = Math.floor(totalSeconds / 60);
+    const seconds = totalSeconds % 60;
+    const milliseconds = Math.floor(lapTime % 1000); // Use floor to get the whole milliseconds
+    return `${minutes}:${seconds.toString().padStart(2, '0')}.${milliseconds.toString().padStart(3, '0').slice(0, 3)}`; // Display milliseconds
+}
 
 // Function to display the results in the DOM
 function displayResults(results) {
@@ -105,7 +56,7 @@ function displayResults(results) {
     results.forEach((result, index) => {
         const row = document.createElement('tr');
         row.className = 'result-row'; // Add a class for styling
-        const lapTime = formatLapTime(result.bestLap);
+        const lapTime = formatLapTime(result.bestLap); // Format lap time
 
         // Define background colors for specific positions
         let nameBackgroundColor = '';
@@ -119,41 +70,18 @@ function displayResults(results) {
             // For other rows, alternate between two colors
             nameBackgroundColor = index % 2 === 0 ? '#303030' : '#0f0f0f'; // Alternate colors
         }
-        let textColor = "";
-        if(index <3)
-        {
-            textColor = "black"
-        }
+        let textColor = index < 3 ? "black" : "white"; // Adjust text color
+
         // Insert the row with dynamic background color
         row.innerHTML = `
             <td class="position" style="background-color: ${nameBackgroundColor}; color : ${textColor}">${index + 1}</td>
-            <td class="name" style="background-color: ${nameBackgroundColor};color : ${textColor}">${result.driverName}</td>
-            <td class="time" style="background-color: ${nameBackgroundColor};color : ${textColor}">${lapTime}</td>
+            <td class="name" style="background-color: ${nameBackgroundColor}; color : ${textColor}">${result.driverName}</td>
+            <td class="time" style="background-color: ${nameBackgroundColor}; color : ${textColor}">${lapTime}</td>
         `;
         resultsBody.appendChild(row);
     });
 
     setTimeout(startAutoScroll, 5000); // Delay scroll start by 5 seconds
-}
-
-
-// Function to populate results into the DOM
-function populateResults(data) {
-    const resultsBody = document.getElementById('resultsBody');
-    resultsBody.innerHTML = ''; // Clear any existing content
-
-    // Loop through each item and create a new row
-    data.forEach((item) => {
-        const row = document.createElement('div');
-        row.classList.add('result-row');
-        row.innerHTML = `
-            <div>${item.driverName}</div>
-            <div>${item.carModel}</div>
-            <div>${item.trackName}</div>
-            <div>${item.bestLap}</div>
-        `;
-        resultsBody.appendChild(row);
-    });
 }
 
 // Function to start auto-scrolling
@@ -192,31 +120,5 @@ function restartScroll() {
 // When the page loads, fetch the data and start scrolling
 window.onload = async function() {
     await fetchCarAndTrack(); // Fetch data before scrolling
-    startAutoScroll(); // Start the scroll after data is populated
-};
-
-
-
-function restartScroll() {
-    const resultsContainer = document.querySelector('.results-container');
-    resultsContainer.scrollTop = 0; // Reset scroll position
-
-    // Wait for 5 seconds before starting to scroll again
-    setTimeout(() => {
-        startAutoScroll(); // Start scrolling again
-    }, scrollDelay); // 5 seconds delay before starting to scroll
-}
-
-function formatLapTime(lapTimeMs) {
-    const totalSeconds = Math.floor(lapTimeMs / 1000);
-    const minutes = Math.floor(totalSeconds / 60);
-    const seconds = totalSeconds % 60;
-    const milliseconds = Math.floor(lapTimeMs % 1000); // Use floor to get the whole milliseconds
-    return `${minutes}:${seconds.toString().padStart(2, '0')}.${milliseconds.toString().padStart(3, '0').slice(0, 3)}`; // Display milliseconds
-}
-
-// Fetch results and settings when the page loads
-window.onload = async () => {
-    await fetchCarAndTrack();
-    fetchResults();
+    fetchResults(); // Fetch results after fetching settings
 };
