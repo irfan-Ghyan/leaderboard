@@ -35,7 +35,7 @@ document.getElementById('settingsForm').addEventListener('submit', async functio
     };
 
     try {
-        const response = await fetch('/api/settings', {
+        const response = await fetch('/api/save-settings', {
             method: 'POST', // Adjust this if your server requires a different method
             headers: {
                 'Content-Type': 'application/json',

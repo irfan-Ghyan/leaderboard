@@ -119,12 +119,16 @@ function displayResults(results) {
             // For other rows, alternate between two colors
             nameBackgroundColor = index % 2 === 0 ? '#303030' : '#0f0f0f'; // Alternate colors
         }
-
+        let textColor = "";
+        if(index <3)
+        {
+            textColor = "black"
+        }
         // Insert the row with dynamic background color
         row.innerHTML = `
-            <td class="position" style="background-color: ${nameBackgroundColor};">${index + 1}</td>
-            <td class="name" style="background-color: ${nameBackgroundColor};">${result.driverName}</td>
-            <td class="time" style="background-color: ${nameBackgroundColor};">${lapTime}</td>
+            <td class="position" style="background-color: ${nameBackgroundColor}; color : ${textColor}">${index + 1}</td>
+            <td class="name" style="background-color: ${nameBackgroundColor};color : ${textColor}">${result.driverName}</td>
+            <td class="time" style="background-color: ${nameBackgroundColor};color : ${textColor}">${lapTime}</td>
         `;
         resultsBody.appendChild(row);
     });

@@ -5,8 +5,8 @@ const path = require('path');
 const cors = require('cors'); 
 
 const app = express();
-const PORT = 3000;
-const DATA_DIR = "D:\\Leaderboard\\results"; 
+const PORT = 3333;
+const DATA_DIR = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\assettocorsa\\server\\results"; 
 
 let leaderboardData = [];
 
@@ -59,18 +59,36 @@ app.get('/api/leaderboard', (req, res) => {
   }
 
   console.log(`Filter range: ${settings.startDateFilter} to ${settings.endDateFilter}`);
-  
-  const filteredData = leaderboardData.filter(entry => {
-    // Convert the session date from 'YYYY_M_D_HH_MM' to 'YYYYMMDDHHMM' for comparison
-    const entryDate = entry.date.replace(/_/g, '').slice(0, 10) + entry.date.split('_')[3] + '00'; 
+ // console.log(leaderboardData);
+// console.log(leaderboardData[0].date)
+  // const filteredData = leaderboardData.filter(entry => {
     
+  //   // Convert the session date from 'YYYY_M_D_HH_MM' to 'YYYYMMDDHHMM' for comparison
+  //   const entryDate = entry.date.replace(/_/g, '').slice(0, 10) + entry.date.split('_')[3] + '00'; 
+    
+  //   // Filter conditions
+  //   const dateCondition = entryDate >= settings.startDateFilter && entryDate <= settings.endDateFilter;
+  //   const trackCondition = settings.trackFilters.includes('ALL') || settings.trackFilters.includes(entry.trackName);
+  //   const carCondition = settings.carFilters.includes('ALL') || settings.carFilters.includes(entry.carModel);
+
+  //   return dateCondition && trackCondition && carCondition;
+  // });
+
+  const filteredData = leaderboardData.filter(entry => {
+    // Convert the entry date from 'YYYY_M_D_HH_MM' to 'YYYYMMDDHHMM' format for comparison
+    const entryDate = entry.date.replace(/_/g, '').slice(0, 8) + entry.date.split('_')[3] + entry.date.split('_')[4];
+
+    // Convert filter dates from 'YYYY-MM-DDTHH:MM' to 'YYYYMMDDHHMM' format for comparison
+    const startDateFilter = settings.startDateFilter.replace(/[-T:]/g, '').slice(0, 12);
+    const endDateFilter = settings.endDateFilter.replace(/[-T:]/g, '').slice(0, 12);
+
     // Filter conditions
-    const dateCondition = entryDate >= settings.startDateFilter && entryDate <= settings.endDateFilter;
+    const dateCondition = entryDate >= startDateFilter && entryDate <= endDateFilter;
     const trackCondition = settings.trackFilters.includes('ALL') || settings.trackFilters.includes(entry.trackName);
     const carCondition = settings.carFilters.includes('ALL') || settings.carFilters.includes(entry.carModel);
 
     return dateCondition && trackCondition && carCondition;
-  });
+});
 
   // Limit results based on maxResults
   const limitedResults = filteredData.slice(0, settings.maxResults);
@@ -87,7 +105,7 @@ app.get('/api/settings', (req, res) => {
 // Endpoint to save settings
 app.post('/api/save-settings', (req, res) => {
   const { startDateFilter, endDateFilter, trackFilters, carFilters, maxResults, carTitle, trackTitle } = req.body;
-
+  try{
   // Update settings with new values
   settings.startDateFilter = startDateFilter;
   settings.endDateFilter = endDateFilter;
@@ -100,11 +118,19 @@ app.post('/api/save-settings', (req, res) => {
   // Save updated settings to file
   saveSettings();
   res.send('Settings saved');
+
+  }
+  catch(err){
+    console.log(err)
+    res.send(err);
+
+  }
 });
 
 async function readJSONFiles() {
   try {
       const files = await fs.readdir(DATA_DIR);
+     /// console.log(DATA_DIR);
       const jsonFiles = files.filter(file => file.endsWith('.json'));
 
       const driverMap = {}; // To track the best lap time per driver
@@ -148,10 +174,9 @@ async function readJSONFiles() {
 
       // Convert the map back to an array
       leaderboardData = Object.values(driverMap);
-
+      
       // Sort the leaderboard by best lap time (ascending)
       leaderboardData.sort((a, b) => a.bestLap - b.bestLap);
-
       console.log(`Total unique drivers loaded: ${leaderboardData.length}`);
   } catch (error) {
       console.error('Error reading JSON files:', error);

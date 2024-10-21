@@ -26,7 +26,7 @@ body {
 }
 
 .info-img {
-    width: 555px;
+    width: 1080px;
     height: 555px;
     display: block;
     margin-left: auto;
@@ -66,8 +66,8 @@ body {
     }
 
     .info-img {
-        width: 500px;
-        height: 500px;
+        width: 1080px;
+        height: 555px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -143,7 +143,7 @@ body {
     }
 
     .info-img {
-        width: 555px;
+        width: 1080px;
         height: 555px;
         display: block;
         margin-left: auto;

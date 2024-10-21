@@ -1,13 +1,9 @@
 {
-  "carTitle": "ferrari",
-  "trackTitle": "yas marina",
-  "startDateFilter": "2022-10-13T11:00",
-  "endDateFilter": "2024-06-10T23:00",
-  "trackFilters": [
-    "ALL"
-  ],
-  "carFilters": [
-    "ALL"
-  ],
-  "maxResults": 35
+  "carTitle": "VGP",
+  "trackTitle": "COTA",
+  "startDateFilter": "2024-10-17T19:00",
+  "endDateFilter": "2024-10-17T23:00",
+  "trackFilters": ["ALL"],
+  "carFilters": ["ALL"],
+  "maxResults": 20
 }
