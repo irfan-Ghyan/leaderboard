@@ -197,73 +197,51 @@ body {
 /* Track and Car Info Row */
 .info-row {
     display: flex;
-    /* Use flexbox for layout */
-    justify-content: center;
-    /* Center content */
-    align-items: center;
-    /* Center vertically */
+    justify-content: space-between; /* Space between logo and other items */
+    align-items: center; /* Center vertically */
     width: 98%;
-    /* Make the row wider */
-
-    color: rgb(250, 250, 250);
-    /* White text color */
-    padding:10px 0px;
-    /* Padding for content */
+    color: rgb(250, 250, 250); /* White text color */
+    padding: 10px 0px;
     border-radius: 10px;
-    /* Rounded corners */
-    margin: 0 auto 0 auto;
-    /* Center the row with space below it */
+    margin: 0 auto;
     font-size: 26px;
-    /* Font size */
-
     white-space: nowrap;
-    /* Prevent text from wrapping */
     overflow: hidden;
-    /* Hide overflow */
     text-overflow: ellipsis;
-    /* Add ellipsis for overflow text */
     position: relative;
-
 }
 
-.logoimage{
-    width: 445px;
+.logoimage {
+    flex: 0 0 auto; /* Prevent logo from growing or shrinking */
+    width: 245px;
+    height: 60px;
+}
+
+.value-container {
+    display: flex;
+    justify-content: flex-end; /* Align track, separator, and car name to the right */
+    flex: 1; /* Take remaining space */
+    align-items: center; /* Ensure vertical alignment */
 }
 
 .value {
     background-color: transparent;
-    /* Remove background color */
     padding: 10px 20px;
-    /* Add padding for spacing */
-    /* Rounded corners */
-    text-align: center;
-    /* Center the text */
-   
-    /* Light border for subtle separation */
-    flex: 1;
-    /* Allow the value div to grow */
-
-    /* Set a minimum width for better layout */
+    text-align: right; /* Align text to the right */
     white-space: nowrap;
-    /* Prevent text from wrapping */
     overflow: hidden;
-    /* Hide overflow text */
     text-overflow: ellipsis;
-    /* Add ellipsis for overflow text */
     font-size: 40px;
     font-weight: bold;
 }
 
 .separator {
     margin: 0 10px;
-    /* Space around the separator */
-    font-size: 30px;
-    /* Match font size */
+    font-size: 40px; /* Match font size with value */
+    line-height: 1; /* Adjust line height for vertical alignment */
     color: rgb(255, 255, 255);
-    /* White color for separator */
 }
 
-/* Result Rows */
 /* Result Rows */
 .result-table {
     width: 100%;

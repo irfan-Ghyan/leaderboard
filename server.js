@@ -6,7 +6,9 @@ const cors = require('cors');
 
 const app = express();
 const PORT = 3333;
-const DATA_DIR = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\assettocorsa\\server\\results"; 
+const DATA_DIR = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\assettocorsa\\server\\results";
+const refreshSettingsMS = 10000;
+const refreshResultsMs = 5000; 
 
 let leaderboardData = [];
 
@@ -208,9 +210,9 @@ async function readJSONFiles() {
 
 
 // Check for new JSON files every 10 seconds
-setInterval(readJSONFiles, 10000);
+setInterval(readJSONFiles, refreshResultsMs);
 
-setInterval(loadSettings, 10000);
+setInterval(loadSettings, refreshSettingsMS);
 
 // Start the server
 app.listen(PORT, () => {
