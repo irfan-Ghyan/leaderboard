@@ -23,7 +23,7 @@ app.get('/settings', (req, res) => {
         }
         try {
             const settings = JSON.parse(data);
-            res.json(settings); // Send the settings as JSON
+            res.json(settings);
         } catch (parseError) {
             console.error('Error parsing settings:', parseError);
             return res.status(500).send('Error parsing settings');
@@ -31,11 +31,8 @@ app.get('/settings', (req, res) => {
     });
 });
 
-
 // Endpoint to save settings
 app.post('/save-settings', (req, res) => {
-    console.log('Received settings:', req.body); // Debugging line
-
     const formattedSettings = {
         carTitle: req.body.carTitle || '',  // Default to empty string if undefined
         trackTitle: req.body.trackTitle || '',  // Default to empty string if undefined
@@ -43,19 +40,21 @@ app.post('/save-settings', (req, res) => {
         endDateFilter: req.body.endDateFilter || '', // Ensure it has a default
         trackFilters: req.body.trackFilters && req.body.trackFilters.length ? req.body.trackFilters : ['ALL'],
         carFilters: req.body.carFilters && req.body.carFilters.length ? req.body.carFilters : ['ALL'],
-        maxResults: req.body.maxResults || 20 // Set a default value if undefined
+        maxResults: req.body.maxResults || 20, // Set a default value if undefined
+        practice: req.body.practice || 0,  // Default to 0 if undefined
+        qualify: req.body.qualify || 0,  // Default to 0 if undefined
+        race: req.body.race || 0,  // Default to 0 if undefined
     };
-
-    console.log('Formatted Settings to save:', formattedSettings); // Log the formatted settings
 
     fs.writeFile('settings.json', JSON.stringify(formattedSettings, null, 2), (err) => {
         if (err) {
-            console.error('Error saving settings:', err); // Log the error for debugging
-            return res.status(500).send(`Error saving settings: ${err.code} - ${err.message}`); // Send a more detailed error message
+            console.error('Error saving settings:', err);
+            return res.status(500).send(`Error saving settings: ${err.code} - ${err.message}`);
         }
         res.send('Settings saved');
     });
 });
+
 
 
 // Serve static files

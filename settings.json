@@ -1,13 +1,16 @@
 {
   "carTitle": "COTA",
   "trackTitle": "Virtual GP",
-  "startDateFilter": "2023-09-17T19:00",
-  "endDateFilter": "2024-10-17T19:30",
+  "startDateFilter": "2024-09-17T19:00",
+  "endDateFilter": "2024-10-19T19:30",
   "trackFilters": [
     "ALL"
   ],
   "carFilters": [
     "ALL"
   ],
-  "maxResults": 15
+  "maxResults": 20,
+  "practice": 1,
+  "qualify": 1,
+  "race": 1
 }

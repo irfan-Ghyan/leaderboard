@@ -1,7 +1,6 @@
 async function fetchSettings() {
     try {
-        // Fetch the settings from the server
-        const response = await fetch('/settings'); // Updated to match your server endpoint
+        const response = await fetch('/settings');
         if (!response.ok) throw new Error('Network response was not ok');
         const settings = await response.json();
 
@@ -13,17 +12,19 @@ async function fetchSettings() {
         document.getElementById('trackFilters').value = settings.trackFilters ? settings.trackFilters.join(', ') : '';
         document.getElementById('carFilters').value = settings.carFilters ? settings.carFilters.join(', ') : '';
         document.getElementById('maxResults').value = settings.maxResults || 99;
+        // Set checkbox values (if 1, checked; if 0, unchecked)
+        document.getElementById('practiceCheckbox').checked = settings.practice === 1;
+        document.getElementById('qualifyCheckbox').checked = settings.qualify === 1;
+        document.getElementById('raceCheckbox').checked = settings.race === 1;
     } catch (error) {
         console.error('Error fetching settings:', error);
     }
 }
 
-// Call fetchSettings when the page loads
 window.onload = fetchSettings;
 
-// Handle form submission
 document.getElementById('settingsForm').addEventListener('submit', async function(event) {
-    event.preventDefault(); // Prevent the form from submitting the traditional way
+    event.preventDefault();
 
     const settings = {
         carTitle: document.getElementById('carTitle').value,
@@ -33,10 +34,13 @@ document.getElementById('settingsForm').addEventListener('submit', async functio
         trackFilters: document.getElementById('trackFilters').value.split(',').map(item => item.trim()),
         carFilters: document.getElementById('carFilters').value.split(',').map(item => item.trim()),
         maxResults: parseInt(document.getElementById('maxResults').value, 10), // Parse to integer
+        practice: document.getElementById('practiceCheckbox').checked ? 1 : 0,
+        qualify: document.getElementById('qualifyCheckbox').checked ? 1 : 0,
+        race: document.getElementById('raceCheckbox').checked ? 1 : 0,
     };
 
     try {
-        const response = await fetch('/save-settings', { // Match the endpoint to your server
+        const response = await fetch('/save-settings', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -47,7 +51,7 @@ document.getElementById('settingsForm').addEventListener('submit', async functio
         if (response.ok) {
             alert('Settings saved successfully!');
         } else {
-            const errorMessage = await response.text(); // Get the error message from the server
+            const errorMessage = await response.text();
             alert(`Failed to save settings: ${errorMessage}`);
         }
     } catch (error) {

@@ -44,6 +44,14 @@
         button:hover {
             background-color: #0056b3;
         }
+        .checkbox-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        .checkbox-group label {
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -70,6 +78,13 @@
 
             <label for="maxResults">Max Results:</label>
             <input type="number" id="maxResults" name="maxResults" value="99" required>
+
+            <!-- PRACTICE, QUALIFY, RACE Checkboxes -->
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="practiceCheckbox" name="practice"> Practice</label>
+                <label><input type="checkbox" id="qualifyCheckbox" name="qualify"> Qualify</label>
+                <label><input type="checkbox" id="raceCheckbox" name="race"> Race</label>
+            </div>
 
             <button type="submit">Save Settings</button>
         </form>

@@ -105,7 +105,6 @@ app.post('/api/save-settings', (req, res) => {
 });
 
 // Function to read JSON files and populate leaderboardData
-// Function to read JSON files and populate leaderboardData
 async function readJSONFiles() {
   try {
     const files = await fs.readdir(DATA_DIR);
@@ -120,12 +119,27 @@ async function readJSONFiles() {
 
       try {
         content = await fs.readJson(filePath);
-        if (!content || !content.Laps || !content.TrackName) {
-          console.warn(`Skipping file due to missing required fields: ${file}`);
+        if (!content || !content.Laps || !content.TrackName || !content.Type) {
+          //console.warn(`Skipping file due to missing required fields: ${file}`);
           continue;
         }
       } catch (error) {
         console.error(`Error reading or parsing JSON file: ${file}`, error);
+        continue;
+      }
+
+      // Filter by session type (practice, qualify, race)
+      const sessionType = content.Type.toUpperCase();
+      const allowPractice = settings.practice === 1;
+      const allowQualify = settings.qualify === 1;
+      const allowRace = settings.race === 1;
+
+      if (
+        (sessionType === 'PRACTICE' && !allowPractice) ||
+        (sessionType === 'QUALIFY' && !allowQualify) ||
+        (sessionType === 'RACE' && !allowRace)
+      ) {
+        //console.log(`Skipping file due to session type filter: ${file}`);
         continue;
       }
 
@@ -149,7 +163,7 @@ async function readJSONFiles() {
       if (sessionDateNumeric < startDateFilterNumeric || sessionDateNumeric > endDateFilterNumeric) {
         continue; // Skip files outside the date range
       }
-
+      console.log(`Reading file: ${file}`);
       const trackName = content.TrackName;
       const results = content.Result || []; // Focus on the Results section
 
@@ -201,13 +215,11 @@ async function readJSONFiles() {
     });
 
     console.log(`Total unique drivers loaded: ${leaderboardData.length}`);
+    //console.log(driverMap);
   } catch (error) {
     console.error('Error reading JSON files:', error);
   }
 }
-
-
-
 
 // Check for new JSON files every 10 seconds
 setInterval(readJSONFiles, refreshResultsMs);
