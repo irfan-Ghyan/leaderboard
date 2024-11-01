@@ -21,7 +21,7 @@ body {
 .header {
     height: 100PX;
     /* Keep this empty space at the top */
-    background-color: #b60000 ;
+    background-color: #1e1450 ;
     ;
 }
 
@@ -47,13 +47,13 @@ body {
 /* Hardcoded for landscape (1920x1080) */
 @media screen and (min-width: 1920px) and (max-height: 1080px) {
     .container {
-        background-image: url('background_landscape.png');
-
+        /*background-image: url('background_landscape.png');*/
+        background-color: gold ;
     }
     .header1 {
-        height: 500px;
+        height: 315px;
         /* Keep this empty space at the top */
-        background-color: #e3e3e3;
+        background-color: #1e1450;
         ;
     }
 
@@ -66,8 +66,8 @@ body {
     }
 
     .info-img {
-        width: 1080px;
-        height: 555px;
+        width: 1920px;
+        height: 300px;
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -123,7 +123,8 @@ body {
 /* Hardcoded for portrait (1080x1920) */
 @media screen and (max-width: 1080px) and (min-height: 1920px) {
     .container {
-        background-image: url('background_portrait.png');
+        /*background-image: url('background_portrait.png');*/
+        background-color: #1e1450 ;
    
     }
     .header1 {
@@ -148,6 +149,7 @@ body {
         display: block;
         margin-left: auto;
         margin-right: auto;
+        object-fit: cover;
 
     }
     .info-logo{
