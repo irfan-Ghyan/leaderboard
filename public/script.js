@@ -62,16 +62,16 @@ function displayResults(results) {
         // Define background colors for specific positions
         let nameBackgroundColor = '';
         if (index === 0) {
-            nameBackgroundColor = 'gold';
+            nameBackgroundColor = '#FF2261';
         } else if (index === 1) {
-            nameBackgroundColor = 'silver';
+            nameBackgroundColor = '#1E1343';
         } else if (index === 2) {
-            nameBackgroundColor = '#cd7f32'; // Bronze
+            nameBackgroundColor = '#00e68c'; // Bronze
         } else {
             // For other rows, alternate between two colors
-            nameBackgroundColor = index % 2 === 0 ? '#303030' : '#0f0f0f'; // Alternate colors
+            nameBackgroundColor = index % 2 === 0 ? '#1E1343' : '#1E1343'; // Alternate colors
         }
-        let textColor = index < 3 ? "black" : "white"; // Adjust text color
+        let textColor = index < 3 ? "white" : "white"; // Adjust text color
 
         // Insert the row with dynamic background color
         row.innerHTML = `

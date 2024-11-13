@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Pilat Narrow';
+    src: url('PilatNarrow-Heavy.eot');
+    src: local('Pilat Narrow Heavy'), local('PilatNarrow-Heavy'),
+        url('PilatNarrow-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('PilatNarrow-Heavy.woff2') format('woff2'),
+        url('PilatNarrow-Heavy.woff') format('woff'),
+        url('PilatNarrow-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Narrow';
+    src: url('PilatNarrow-Regular.eot');
+    src: local('Pilat Narrow Regular'), local('PilatNarrow-Regular'),
+        url('PilatNarrow-Regular.eot?#iefix') format('embedded-opentype'),
+        url('PilatNarrow-Regular.woff2') format('woff2'),
+        url('PilatNarrow-Regular.woff') format('woff'),
+        url('PilatNarrow-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Narrow Demi';
+    src: url('PilatNarrow-DemiBold.eot');
+    src: local('Pilat Narrow DemiBold'), local('PilatNarrow-DemiBold'),
+        url('PilatNarrow-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('PilatNarrow-DemiBold.woff2') format('woff2'),
+        url('PilatNarrow-DemiBold.woff') format('woff'),
+        url('PilatNarrow-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Narrow';
+    src: url('PilatNarrow-Black.eot');
+    src: local('Pilat Narrow Black'), local('PilatNarrow-Black'),
+        url('PilatNarrow-Black.eot?#iefix') format('embedded-opentype'),
+        url('PilatNarrow-Black.woff2') format('woff2'),
+        url('PilatNarrow-Black.woff') format('woff'),
+        url('PilatNarrow-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Narrow';
+    src: url('PilatNarrow-Light.eot');
+    src: local('Pilat Narrow Light'), local('PilatNarrow-Light'),
+        url('PilatNarrow-Light.eot?#iefix') format('embedded-opentype'),
+        url('PilatNarrow-Light.woff2') format('woff2'),
+        url('PilatNarrow-Light.woff') format('woff'),
+        url('PilatNarrow-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Narrow';
+    src: url('PilatNarrow-Thin.eot');
+    src: local('Pilat Narrow Thin'), local('PilatNarrow-Thin'),
+        url('PilatNarrow-Thin.eot?#iefix') format('embedded-opentype'),
+        url('PilatNarrow-Thin.woff2') format('woff2'),
+        url('PilatNarrow-Thin.woff') format('woff'),
+        url('PilatNarrow-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Narrow';
+    src: url('PilatNarrow-Bold.eot');
+    src: local('Pilat Narrow Bold'), local('PilatNarrow-Bold'),
+        url('PilatNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PilatNarrow-Bold.woff2') format('woff2'),
+        url('PilatNarrow-Bold.woff') format('woff'),
+        url('PilatNarrow-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Narrow Book';
+    src: url('PilatNarrow-Book.eot');
+    src: local('Pilat Narrow Book'), local('PilatNarrow-Book'),
+        url('PilatNarrow-Book.eot?#iefix') format('embedded-opentype'),
+        url('PilatNarrow-Book.woff2') format('woff2'),
+        url('PilatNarrow-Book.woff') format('woff'),
+        url('PilatNarrow-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
