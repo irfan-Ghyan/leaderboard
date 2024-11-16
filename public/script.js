@@ -128,7 +128,7 @@ function startDataRefresh() {
 
 // When the page loads, fetch the data and start scrolling
 window.onload = async function() {
-    await fetchCarAndTrack(); // Fetch data before scrolling
+    //await fetchCarAndTrack(); // Fetch data before scrolling
     await fetchResults(); // Fetch results after fetching settings
     startDataRefresh(); // Start the data refresh process every 10 seconds
     setTimeout(startAutoScroll, scrollDelay); // Delay scroll start by 5 seconds on initial load

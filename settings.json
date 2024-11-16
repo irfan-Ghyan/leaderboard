@@ -9,7 +9,7 @@
   "carFilters": [
     "ALL"
   ],
-  "maxResults": 100,
+  "maxResults": 20,
   "practice": 0,
   "qualify": 1,
   "race": 0

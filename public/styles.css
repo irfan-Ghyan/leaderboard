@@ -1,15 +1,4 @@
 /* styles.css */
-/*@font-face {
-    font-family: 'Pilat Narrow';
-    src: url('PilatNarrow-Regular.eot');
-    src: local('Pilat Narrow Regular'), local('PilatNarrow-Regular'),
-        url('PilatNarrow-Regular.eot?#iefix') format('embedded-opentype'),
-        url('PilatNarrow-Regular.woff2') format('woff2'),
-        url('PilatNarrow-Regular.woff') format('woff'),
-        url('PilatNarrow-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}*/
 @font-face {
     font-family: 'Pilat';
     src: url('Pilat\ Regular.otf');
@@ -36,7 +25,7 @@ body {
 }
 
 .header {
-    height: 100PX;
+    height: 0PX;
     /* Keep this empty space at the top */
     background-color: #1e1343 ;
     ;
