@@ -21,7 +21,7 @@ body {
 .header {
     height: 100PX;
     /* Keep this empty space at the top */
-    background-color: #1e1450 ;
+    background-color: #000000 ;
     ;
 }
 
@@ -53,7 +53,7 @@ body {
     .header1 {
         height: 315px;
         /* Keep this empty space at the top */
-        background-color: #1e1450;
+        background-color: #000000;
         ;
     }
 
@@ -124,7 +124,7 @@ body {
 @media screen and (max-width: 1080px) and (min-height: 1920px) {
     .container {
         /*background-image: url('background_portrait.png');*/
-        background-color: #1e1450 ;
+        background-color: #1d1d1d ;
    
     }
     .header1 {
